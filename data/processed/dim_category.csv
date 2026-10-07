@@ -1,0 +1,6 @@
+category_id,category_label,description,sort_order
+1,AI-Driven,Company explicitly cited AI / automation as a reason for the cuts,1
+2,Restructure,"Reorganisation, site closures, strategic refocus",2
+3,Cost Cut,Cost reduction / margin programs,3
+4,Weak Demand,"Falling sales, tariffs, lost contracts",4
+5,Merger,Post-merger or acquisition integration,5

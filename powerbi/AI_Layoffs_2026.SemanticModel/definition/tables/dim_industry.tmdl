@@ -1,0 +1,41 @@
+table dim_industry
+	lineageTag: 1d7100fa-2fab-5aeb-8909-f42b2dad386a
+
+	column industry_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9b5e36dd-6c64-5763-8674-1b9a7b697f58
+		summarizeBy: none
+		sourceColumn: industry_id
+
+		annotation SummarizationSetBy = User
+
+	column industry
+		dataType: string
+		lineageTag: d722cd13-3ee5-506a-8974-e4f03c76ab61
+		summarizeBy: none
+		sourceColumn: industry
+
+		annotation SummarizationSetBy = User
+
+	column sector_group
+		dataType: string
+		lineageTag: 78b12905-ea3c-5145-89b5-2f3bb9275c6b
+		summarizeBy: none
+		sourceColumn: sector_group
+
+		annotation SummarizationSetBy = User
+
+	partition dim_industry = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "dim_industry.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"industry_id", Int64.Type}, {"industry", type text}, {"sector_group", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

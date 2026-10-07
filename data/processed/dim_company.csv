@@ -1,0 +1,422 @@
+company_id,company,industry,total_workforce,company_size_band,is_repeat_layoffer
+1,24Hr HomeCare,Healthcare & Pharma,13000,3 - 10K-50K,0
+2,AI21 Labs,Tech,180,1 - <1K,0
+3,ASML,Tech,44000,3 - 10K-50K,0
+4,Abbott House,Government & Nonprofit,500,1 - <1K,0
+5,Accenture,Tech,750000,5 - 100K+,0
+6,Acrisure,Finance & Banking,20450,3 - 10K-50K,0
+7,Aer Lingus,Automotive & Transportation,6000,2 - 1K-10K,0
+8,Alameda Health System,Healthcare & Pharma,6000,2 - 1K-10K,0
+9,Alan Ritchey,Automotive & Transportation,3000,2 - 1K-10K,0
+10,Algoma Steel,Manufacturing,3500,2 - 1K-10K,0
+11,Alltrna,Healthcare & Pharma,55,1 - <1K,0
+12,Amazon,Tech,1550000,5 - 100K+,1
+13,Amdocs,Tech,29000,3 - 10K-50K,0
+14,Amentum,Tech,50000,4 - 50K-100K,0
+15,Amy's Kitchen,Consumer Goods,2800,2 - 1K-10K,0
+16,Anchor Glass,Manufacturing,1400,2 - 1K-10K,0
+17,Angi,Tech,5000,2 - 1K-10K,0
+18,Apple,Tech,166000,5 - 100K+,0
+19,Aramark,Retail,278390,5 - 100K+,0
+20,Arctic Wolf,Tech,3000,2 - 1K-10K,0
+21,Arrow Fastener,Manufacturing,400,1 - <1K,0
+22,ArsenalBio,Healthcare & Pharma,127,1 - <1K,0
+23,Artlist,Tech,500,1 - <1K,0
+24,AssistRx,Healthcare & Pharma,1400,2 - 1K-10K,0
+25,Associated Press,Media & Entertainment,3300,2 - 1K-10K,0
+26,Atlassian,Tech,16000,3 - 10K-50K,0
+27,Autodesk,Tech,14300,3 - 10K-50K,0
+28,Autolus Therapeutics,Healthcare & Pharma,752,1 - <1K,0
+29,BBC,Media & Entertainment,21508,3 - 10K-50K,1
+30,BILL Holdings,Crypto & Fintech,2333,2 - 1K-10K,0
+31,BMW,Automotive & Transportation,154000,5 - 100K+,0
+32,Banker Steel,Manufacturing,500,1 - <1K,0
+33,Barrette Outdoor Living,Manufacturing,2000,2 - 1K-10K,0
+34,Bell Canada,Telecom,38683,3 - 10K-50K,0
+35,Bicycle Therapeutics,Healthcare & Pharma,288,1 - <1K,0
+36,BigID,Tech,650,1 - <1K,0
+37,Bilfinger,Manufacturing,31000,3 - 10K-50K,0
+38,BioMarin Pharmaceutical,Healthcare & Pharma,3221,2 - 1K-10K,0
+39,BioNTech,Healthcare & Pharma,8455,2 - 1K-10K,0
+40,BitGo,Crypto & Fintech,565,1 - <1K,0
+41,Bitcoin Suisse,Crypto & Fintech,200,1 - <1K,0
+42,BlackRock,Finance & Banking,24600,3 - 10K-50K,1
+43,Block,Crypto & Fintech,10000,3 - 10K-50K,0
+44,Blue Diamond Growers,Manufacturing,1835,2 - 1K-10K,0
+45,Blue Shield of California,Healthcare & Pharma,7500,2 - 1K-10K,0
+46,Bolt,Crypto & Fintech,750,1 - <1K,0
+47,Booksy,Tech,1000,2 - 1K-10K,0
+48,Bosch,Automotive & Transportation,418000,5 - 100K+,0
+49,Bossong Hosiery Mills,Manufacturing,122,1 - <1K,0
+50,BrewDog,Consumer Goods,1217,2 - 1K-10K,0
+51,Bristol Myers Squibb,Healthcare & Pharma,34000,3 - 10K-50K,1
+52,British American Tobacco,Consumer Goods,45000,3 - 10K-50K,0
+53,Build a Rocket Boy,Tech,250,1 - <1K,0
+54,Bumble Bee Foods,Consumer Goods,1614,2 - 1K-10K,0
+55,Bungie,Tech,800,1 - <1K,0
+56,BuzzFeed,Media & Entertainment,510,1 - <1K,0
+57,CBS News,Media & Entertainment,1100,2 - 1K-10K,0
+58,CJ Logistics America,Automotive & Transportation,1376,2 - 1K-10K,1
+59,CNN,Media & Entertainment,3000,2 - 1K-10K,0
+60,Cambium Networks,Telecom,486,1 - <1K,0
+61,Campbell's,Manufacturing,13700,3 - 10K-50K,1
+62,Capital One,Crypto & Fintech,70000,4 - 50K-100K,0
+63,Carlex Glass America,Automotive & Transportation,3000,2 - 1K-10K,0
+64,Carry-On Trailer,Automotive & Transportation,1100,2 - 1K-10K,0
+65,Cars.com,Automotive & Transportation,1700,2 - 1K-10K,0
+66,Cboe Global Markets,Finance & Banking,1661,2 - 1K-10K,0
+67,Cellares,Healthcare & Pharma,318,1 - <1K,1
+68,Centrica,Energy,20000,3 - 10K-50K,0
+69,Channel 4,Media & Entertainment,1270,2 - 1K-10K,0
+70,ChargePoint,Automotive & Transportation,1440,2 - 1K-10K,0
+71,Charter Next Generation,Manufacturing,2700,2 - 1K-10K,0
+72,Chevron,Energy,45000,3 - 10K-50K,1
+73,Chime,Crypto & Fintech,1500,2 - 1K-10K,0
+74,Cigna Evernorth,Healthcare & Pharma,70000,4 - 50K-100K,0
+75,Cisco,Tech,80000,4 - 50K-100K,0
+76,Citigroup,Finance & Banking,200000,5 - 100K+,0
+77,City of Hope,Healthcare & Pharma,11000,3 - 10K-50K,0
+78,Claire's,Retail,17000,3 - 10K-50K,0
+79,ClickUp,Tech,1300,2 - 1K-10K,0
+80,Close Brothers,Finance & Banking,3000,2 - 1K-10K,0
+81,Cloudflare,Tech,5156,2 - 1K-10K,0
+82,Cognizant,Tech,357600,5 - 100K+,0
+83,Coinbase,Crypto & Fintech,5000,2 - 1K-10K,0
+84,Commerzbank,Finance & Banking,39867,3 - 10K-50K,0
+85,Compass,Tech,18000,3 - 10K-50K,0
+86,Conifer Health (Tenet),Healthcare & Pharma,99000,4 - 50K-100K,0
+87,CorroHealth,Healthcare & Pharma,17000,3 - 10K-50K,0
+88,Corteva,Manufacturing,21500,3 - 10K-50K,0
+89,Corus Entertainment,Media & Entertainment,2170,2 - 1K-10K,0
+90,Coursera,Tech,2650,2 - 1K-10K,0
+91,Crothall / Morrison Healthcare,Healthcare & Pharma,10000,3 - 10K-50K,1
+92,CrowdStrike,Tech,10000,3 - 10K-50K,0
+93,Crypto.com,Crypto & Fintech,1500,2 - 1K-10K,0
+94,Cubic3,Tech,450,1 - <1K,0
+95,DSV,Automotive & Transportation,160000,5 - 100K+,0
+96,Daily Wire,Media & Entertainment,200,1 - <1K,0
+97,Daimler Truck North America,Automotive & Transportation,28000,3 - 10K-50K,0
+98,Dartmouth Health,Healthcare & Pharma,16000,3 - 10K-50K,0
+99,DeepL,Tech,1000,2 - 1K-10K,0
+100,Dell,Tech,108000,5 - 100K+,0
+101,Diageo,Consumer Goods,29860,3 - 10K-50K,0
+102,Disc Medicine,Healthcare & Pharma,150,1 - <1K,0
+103,Disney,Media & Entertainment,231000,5 - 100K+,1
+104,Domo,Tech,876,1 - <1K,0
+105,Don't Nod,Tech,314,1 - <1K,0
+106,Dow Chemical,Manufacturing,36000,3 - 10K-50K,0
+107,Dürr CTS,Manufacturing,1300,2 - 1K-10K,0
+108,Eagle Rock Distributing,Consumer Goods,800,1 - <1K,0
+109,Educational Testing Service,Education,2700,2 - 1K-10K,0
+110,Elastic,Tech,3500,2 - 1K-10K,0
+111,Electrolux,Manufacturing,52000,4 - 50K-100K,0
+112,Electronic Arts,Tech,13000,3 - 10K-50K,0
+113,Elementor,Tech,330,1 - <1K,0
+114,Elevance Health,Healthcare & Pharma,97100,4 - 50K-100K,0
+115,Emergent BioSolutions,Healthcare & Pharma,1179,2 - 1K-10K,0
+116,Entain,Media & Entertainment,25000,3 - 10K-50K,0
+117,Envato,Tech,600,1 - <1K,0
+118,Epic Games,Tech,5000,2 - 1K-10K,0
+119,Ericsson,Telecom,12600,3 - 10K-50K,0
+120,Essendant,Retail,2500,2 - 1K-10K,0
+121,Ethereum Foundation,Crypto & Fintech,270,1 - <1K,0
+122,Etsy,Tech,1820,2 - 1K-10K,0
+123,Evonik,Manufacturing,33000,3 - 10K-50K,0
+124,Evotec,Healthcare & Pharma,5000,2 - 1K-10K,0
+125,Expedia Group,Tech,16000,3 - 10K-50K,0
+126,Expeditors International,Automotive & Transportation,19000,3 - 10K-50K,0
+127,FalconX,Crypto & Fintech,630,1 - <1K,0
+128,Family Dollar,Retail,59330,4 - 50K-100K,0
+129,FanDuel,Media & Entertainment,5000,2 - 1K-10K,0
+130,FedEx,Automotive & Transportation,550000,5 - 100K+,1
+131,Fidelity Investments,Finance & Banking,80000,4 - 50K-100K,0
+132,Fifth Third Bank,Finance & Banking,27000,3 - 10K-50K,0
+133,Fiserv,Crypto & Fintech,38000,3 - 10K-50K,0
+134,Flipkart,Tech,25000,3 - 10K-50K,0
+135,Flying Food Group,Consumer Goods,1205,2 - 1K-10K,0
+136,Fresh Venture Foods,Consumer Goods,2000,2 - 1K-10K,0
+137,Freshworks,Tech,4500,2 - 1K-10K,0
+138,Frugal Fannie's,Retail,214,1 - <1K,0
+139,Fujitsu UK,Tech,2700,2 - 1K-10K,0
+140,Full Sail University,Education,2440,2 - 1K-10K,0
+141,GSK,Healthcare & Pharma,66841,4 - 50K-100K,0
+142,GXO Logistics,Automotive & Transportation,154000,5 - 100K+,0
+143,Gambling.com Group,Tech,600,1 - <1K,0
+144,Gemini,Crypto & Fintech,800,1 - <1K,0
+145,Genentech,Healthcare & Pharma,13000,3 - 10K-50K,0
+146,General Dynamics,Tech,117000,5 - 100K+,0
+147,General Motors,Automotive & Transportation,163000,5 - 100K+,1
+148,Georgia-Pacific,Manufacturing,30000,3 - 10K-50K,0
+149,Gilead Sciences,Healthcare & Pharma,209,1 - <1K,0
+150,GitLab,Tech,2580,2 - 1K-10K,0
+151,GladUDid Chick-fil-A,Retail,98,1 - <1K,0
+152,Gloat,Tech,100,1 - <1K,0
+153,Glovo,Consumer Goods,5000,2 - 1K-10K,0
+154,GoHealth,Healthcare & Pharma,850,1 - <1K,0
+155,GoKwik,Tech,600,1 - <1K,0
+156,GoPro,Consumer Goods,631,1 - <1K,0
+157,Goldman Sachs,Finance & Banking,45000,3 - 10K-50K,0
+158,Goodyear,Manufacturing,71000,4 - 50K-100K,0
+159,Google,Tech,198933,5 - 100K+,0
+160,Gossamer Bio,Healthcare & Pharma,160,1 - <1K,0
+161,Greggs,Manufacturing,33000,3 - 10K-50K,0
+162,Group 1 Automotive,Automotive & Transportation,14000,3 - 10K-50K,0
+163,Groupon,Tech,1700,2 - 1K-10K,0
+164,H&M,Retail,94744,4 - 50K-100K,0
+165,H&R Block,Finance & Banking,4600,2 - 1K-10K,0
+166,HDFC Bank,Finance & Banking,214521,5 - 100K+,0
+167,HSBC,Finance & Banking,210000,5 - 100K+,0
+168,Haas Automation,Manufacturing,1700,2 - 1K-10K,0
+169,Hancock Whitney,Finance & Banking,3627,2 - 1K-10K,0
+170,Harley-Davidson,Automotive & Transportation,5500,2 - 1K-10K,0
+171,Health First,Healthcare & Pharma,10350,3 - 10K-50K,0
+172,Heineken,Consumer Goods,87000,4 - 50K-100K,0
+173,Hello Bello,Consumer Goods,150,1 - <1K,0
+174,HelloFresh,Consumer Goods,18000,3 - 10K-50K,0
+175,Home Depot,Retail,475000,5 - 100K+,0
+176,Horizon BCBS NJ,Healthcare & Pharma,4840,2 - 1K-10K,0
+177,Howard University,Education,3750,2 - 1K-10K,0
+178,HubSpot,Tech,8882,2 - 1K-10K,0
+179,IGT,Media & Entertainment,7000,2 - 1K-10K,0
+180,IKEA (Ingka Group),Retail,166000,5 - 100K+,0
+181,Iberia,Automotive & Transportation,10000,3 - 10K-50K,0
+182,Imperial Brands,Consumer Goods,25800,3 - 10K-50K,0
+183,Innovaccer,Tech,2600,2 - 1K-10K,0
+184,Insteel Industries,Manufacturing,1007,2 - 1K-10K,0
+185,Intel,Tech,110000,5 - 100K+,1
+186,Inter IKEA Group,Retail,27700,3 - 10K-50K,0
+187,International Motors,Automotive & Transportation,15000,3 - 10K-50K,0
+188,Intuit,Crypto & Fintech,18200,3 - 10K-50K,0
+189,JBS,Manufacturing,280000,5 - 100K+,0
+190,JPMorgan Chase,Finance & Banking,300000,5 - 100K+,1
+191,Jabil,Manufacturing,135000,5 - 100K+,0
+192,Jaguar Land Rover,Automotive & Transportation,40000,3 - 10K-50K,0
+193,Jerith Manufacturing (Assa Abloy),Manufacturing,64000,4 - 50K-100K,0
+194,John Muir Health,Healthcare & Pharma,6000,2 - 1K-10K,0
+195,Johns Hopkins University,Education,28000,3 - 10K-50K,0
+196,Johnson & Johnson,Healthcare & Pharma,138200,5 - 100K+,1
+197,Just Group,Finance & Banking,1300,2 - 1K-10K,0
+198,K&L Gates,Finance & Banking,3400,2 - 1K-10K,0
+199,KPMG Australia,Finance & Banking,10000,3 - 10K-50K,0
+200,KPMG UK,Finance & Banking,15800,3 - 10K-50K,1
+201,KPMG US,Finance & Banking,1000,2 - 1K-10K,0
+202,Kaiser Permanente,Healthcare & Pharma,225854,5 - 100K+,0
+203,Kellanova,Manufacturing,24000,3 - 10K-50K,0
+204,Kenco Logistic Services,Automotive & Transportation,7500,2 - 1K-10K,0
+205,Kings Food Markets (Albertsons),Retail,280000,5 - 100K+,0
+206,Kyndryl,Tech,73000,4 - 50K-100K,0
+207,L.A. Care Health Plan,Healthcare & Pharma,7500,2 - 1K-10K,0
+208,LAHSA,Government & Nonprofit,600,1 - <1K,0
+209,LAUSD (Los Angeles Unified School District),Education,60000,4 - 50K-100K,0
+210,LIV Golf,Media & Entertainment,300,1 - <1K,0
+211,LeeMAH Electronics,Manufacturing,500,1 - <1K,0
+212,Legal & General,Finance & Banking,10500,3 - 10K-50K,0
+213,Leidos,Tech,47000,3 - 10K-50K,1
+214,Levi Strauss & Co.,Retail,19000,3 - 10K-50K,0
+215,Lightricks,Tech,440,1 - <1K,0
+216,LinkedIn,Tech,17500,3 - 10K-50K,0
+217,Los Angeles Lakers,Media & Entertainment,300,1 - <1K,0
+218,Louisiana-Pacific,Manufacturing,4300,2 - 1K-10K,0
+219,Lucid,Automotive & Transportation,9000,2 - 1K-10K,1
+220,MARA Holdings,Crypto & Fintech,266,1 - <1K,0
+221,Macy's,Retail,90000,4 - 50K-100K,0
+222,Magic Leap,Tech,600,1 - <1K,0
+223,MaineHealth,Healthcare & Pharma,22000,3 - 10K-50K,0
+224,Manhattan Associates,Tech,4370,2 - 1K-10K,0
+225,Marc's,Retail,3000,2 - 1K-10K,0
+226,Mars Petcare,Consumer Goods,170000,5 - 100K+,0
+227,MasterBrand Cabinets,Manufacturing,13000,3 - 10K-50K,0
+228,Mastercard,Finance & Banking,33000,3 - 10K-50K,0
+229,Maverick Gaming,Media & Entertainment,3500,2 - 1K-10K,1
+230,McClatchy,Media & Entertainment,2200,2 - 1K-10K,0
+231,MedImpact Healthcare,Healthcare & Pharma,2000,2 - 1K-10K,0
+232,Mercedes-Benz R and D North America,Automotive & Transportation,3000,2 - 1K-10K,0
+233,Mercer International,Manufacturing,3545,2 - 1K-10K,0
+234,Merck,Healthcare & Pharma,75000,4 - 50K-100K,1
+235,Meta,Tech,79000,4 - 50K-100K,0
+236,Mews,Tech,1350,2 - 1K-10K,0
+237,Microsoft,Tech,228000,5 - 100K+,1
+238,Minute Media,Media & Entertainment,500,1 - <1K,0
+239,Mission Foods,Consumer Goods,4000,2 - 1K-10K,0
+240,Molina Healthcare,Healthcare & Pharma,17000,3 - 10K-50K,0
+241,Montrose Forest Products (Neiman),Manufacturing,450,1 - <1K,0
+242,Morgan Stanley,Finance & Banking,82000,4 - 50K-100K,0
+243,Mountain Valley Golf Course,Media & Entertainment,111,1 - <1K,0
+244,MultiCare Health System,Healthcare & Pharma,28000,3 - 10K-50K,0
+245,MyHeritage,Tech,500,1 - <1K,0
+246,NBA,Media & Entertainment,4000,2 - 1K-10K,0
+247,Nationwide Building Society,Finance & Banking,25000,3 - 10K-50K,0
+248,Nature's Bakery (Mars),Consumer Goods,170000,5 - 100K+,0
+249,Nestlé,Consumer Goods,270000,5 - 100K+,0
+250,Netflix,Media & Entertainment,16000,3 - 10K-50K,0
+251,Nike,Retail,76000,4 - 50K-100K,1
+252,Nippon Electric Glass,Manufacturing,5578,2 - 1K-10K,0
+253,Nissan,Automotive & Transportation,9300,2 - 1K-10K,0
+254,Nokia,Telecom,74100,4 - 50K-100K,0
+255,Nordstrom,Retail,55000,4 - 50K-100K,0
+256,Notions Marketing,Consumer Goods,600,1 - <1K,0
+257,Novartis,Healthcare & Pharma,76000,4 - 50K-100K,1
+258,Novo Nordisk,Healthcare & Pharma,67000,4 - 50K-100K,1
+259,Nutanix,Tech,7800,2 - 1K-10K,0
+260,Obsidian Entertainment,Tech,260,1 - <1K,0
+261,Omnicom,Media & Entertainment,120000,5 - 100K+,0
+262,One Drop Foundation,Government & Nonprofit,25,1 - <1K,0
+263,Opendoor,Tech,1400,2 - 1K-10K,0
+264,Oracle,Tech,162000,5 - 100K+,1
+265,Owens & Minor,Healthcare & Pharma,14000,3 - 10K-50K,0
+266,Ozark Materials (PPG),Manufacturing,43500,3 - 10K-50K,0
+267,PGA Tour,Media & Entertainment,2000,2 - 1K-10K,0
+268,PMG Indiana,Automotive & Transportation,1700,2 - 1K-10K,0
+269,PNC / FirstBank,Finance & Banking,2200,2 - 1K-10K,0
+270,Packaging Corp. of America,Manufacturing,16800,3 - 10K-50K,0
+271,Palo Alto / CyberArk,Tech,16000,3 - 10K-50K,0
+272,Patreon,Tech,465,1 - <1K,0
+273,PayPal,Crypto & Fintech,23800,3 - 10K-50K,1
+274,PeaceHealth,Healthcare & Pharma,16000,3 - 10K-50K,0
+275,Peloton,Consumer Goods,2600,2 - 1K-10K,0
+276,Pendo,Tech,850,1 - <1K,0
+277,Penn Entertainment,Media & Entertainment,25000,3 - 10K-50K,0
+278,Pentera,Tech,470,1 - <1K,0
+279,Pep Boys,Automotive & Transportation,8000,2 - 1K-10K,0
+280,PepsiCo,Consumer Goods,306000,5 - 100K+,0
+281,Perstorp Polyols (PETRONAS),Manufacturing,1500,2 - 1K-10K,0
+282,Pinterest,Media & Entertainment,4700,2 - 1K-10K,0
+283,Polygon Labs,Crypto & Fintech,260,1 - <1K,0
+284,Porsche,Automotive & Transportation,42000,3 - 10K-50K,1
+285,Portillo's,Retail,7800,2 - 1K-10K,0
+286,Portland Trail Blazers,Media & Entertainment,250,1 - <1K,0
+287,Postal Center International,Automotive & Transportation,560,1 - <1K,0
+288,Power Safety Service,Automotive & Transportation,189,1 - <1K,0
+289,Prairie Farms Dairy,Consumer Goods,7000,2 - 1K-10K,0
+290,Procter & Gamble,Consumer Goods,108000,5 - 100K+,0
+291,Prudential Financial,Finance & Banking,36824,3 - 10K-50K,1
+292,Qualtrics,Tech,6454,2 - 1K-10K,0
+293,RTI International,Government & Nonprofit,3400,2 - 1K-10K,0
+294,RYAM (Rayonier Advanced Materials),Manufacturing,2500,2 - 1K-10K,0
+295,Rackspace,Tech,5000,2 - 1K-10K,0
+296,Raley's,Retail,11500,3 - 10K-50K,0
+297,Rapid7,Tech,2600,2 - 1K-10K,0
+298,Rapyd,Crypto & Fintech,700,1 - <1K,0
+299,Reach plc,Media & Entertainment,3100,2 - 1K-10K,0
+300,Redwood Materials,Manufacturing,1350,2 - 1K-10K,0
+301,Regional Acceptance (Truist),Finance & Banking,38711,3 - 10K-50K,1
+302,Renewal by Andersen,Manufacturing,12000,3 - 10K-50K,0
+303,Replimune,Healthcare & Pharma,270,1 - <1K,0
+304,Republic National Distributing,Consumer Goods,10000,3 - 10K-50K,0
+305,Reyes Coca-Cola Bottling,Consumer Goods,10000,3 - 10K-50K,0
+306,Rivian,Automotive & Transportation,15232,3 - 10K-50K,0
+307,Robinhood,Crypto & Fintech,2900,2 - 1K-10K,0
+308,Roskam Baking Company,Consumer Goods,2000,2 - 1K-10K,0
+309,Ruiz Foods,Manufacturing,4000,2 - 1K-10K,0
+310,Ryder,Automotive & Transportation,51600,4 - 50K-100K,0
+311,SFC Global (Schwan's),Manufacturing,5000,2 - 1K-10K,0
+312,SK Battery America,Automotive & Transportation,2566,2 - 1K-10K,0
+313,Saddle Creek Logistics Services,Automotive & Transportation,2400,2 - 1K-10K,0
+314,Saks Global,Retail,17000,3 - 10K-50K,0
+315,Salesforce,Tech,80000,4 - 50K-100K,1
+316,Samsung Electronics America,Consumer Goods,10000,3 - 10K-50K,0
+317,San Francisco Pretrial Diversion Project,Government & Nonprofit,105,1 - <1K,0
+318,Sanofi,Healthcare & Pharma,82878,4 - 50K-100K,0
+319,SentinelOne,Tech,3000,2 - 1K-10K,0
+320,ServiceNow,Tech,30000,3 - 10K-50K,0
+321,Sharp HealthCare,Healthcare & Pharma,22000,3 - 10K-50K,0
+322,Shell Catalyst & Technologies,Manufacturing,85000,4 - 50K-100K,0
+323,Silgan Containers,Manufacturing,17320,3 - 10K-50K,0
+324,Skai,Tech,500,1 - <1K,0
+325,Smokey Bones,Retail,500,1 - <1K,0
+326,Snap,Media & Entertainment,5261,2 - 1K-10K,0
+327,Snowflake,Tech,8000,2 - 1K-10K,0
+328,Snyk,Tech,1550,2 - 1K-10K,0
+329,Sodexo,Retail,426464,5 - 100K+,1
+330,Sonos,Tech,1840,2 - 1K-10K,0
+331,Sony Pictures,Media & Entertainment,12000,3 - 10K-50K,0
+332,Southern Cross Media,Media & Entertainment,6659,2 - 1K-10K,0
+333,Spirit Airlines,Automotive & Transportation,14000,3 - 10K-50K,0
+334,Sprout Social,Tech,1362,2 - 1K-10K,0
+335,Standard Chartered,Finance & Banking,83000,4 - 50K-100K,0
+336,Stanford Health Care,Healthcare & Pharma,15278,3 - 10K-50K,0
+337,Stanley Black & Decker,Manufacturing,60000,4 - 50K-100K,0
+338,Staples,Retail,12000,3 - 10K-50K,0
+339,Star Tribune,Media & Entertainment,495,1 - <1K,0
+340,Starbucks,Consumer Goods,16000,3 - 10K-50K,1
+341,Starling Bank,Finance & Banking,4000,2 - 1K-10K,0
+342,Stelco (Cleveland-Cliffs),Manufacturing,25000,3 - 10K-50K,0
+343,Stoelzle Glass USA,Manufacturing,360,1 - <1K,0
+344,Stone Brewing,Consumer Goods,787,1 - <1K,0
+345,Streamland Media,Media & Entertainment,1500,2 - 1K-10K,0
+346,Sumitomo Mitsui Banking,Finance & Banking,123000,5 - 100K+,0
+347,Sunrise,Telecom,2900,2 - 1K-10K,0
+348,Supermassive Games,Tech,172,1 - <1K,0
+349,Superside,Tech,700,1 - <1K,0
+350,Swiss Life,Finance & Banking,12313,3 - 10K-50K,0
+351,Synopsys,Tech,28000,3 - 10K-50K,0
+352,T-Mobile,Telecom,75000,4 - 50K-100K,0
+353,TScan Therapeutics,Healthcare & Pharma,138,1 - <1K,0
+354,Takeda,Healthcare & Pharma,49000,3 - 10K-50K,0
+355,Target,Retail,400000,5 - 100K+,0
+356,Telefonica,Telecom,100000,5 - 100K+,0
+357,Tessera Therapeutics,Healthcare & Pharma,250,1 - <1K,0
+358,Teva,Healthcare & Pharma,37000,3 - 10K-50K,0
+359,Texas Family Initiative,Healthcare & Pharma,1600,2 - 1K-10K,0
+360,The Bancorp,Finance & Banking,733,1 - <1K,0
+361,The Original Factory Shop,Retail,1180,2 - 1K-10K,0
+362,The Trade Desk,Tech,3843,2 - 1K-10K,0
+363,Theravance Biopharma,Healthcare & Pharma,400,1 - <1K,0
+364,Thermo Fisher,Healthcare & Pharma,125000,5 - 100K+,0
+365,Thinkific,Tech,297,1 - <1K,0
+366,Thomson Reuters,Tech,27100,3 - 10K-50K,0
+367,Ticketmaster,Media & Entertainment,4375,2 - 1K-10K,0
+368,TikTok,Media & Entertainment,40000,3 - 10K-50K,1
+369,Transdev,Automotive & Transportation,30000,3 - 10K-50K,0
+370,Trinity Health,Healthcare & Pharma,133000,5 - 100K+,0
+371,Trustly,Crypto & Fintech,800,1 - <1K,0
+372,Tyson Foods,Manufacturing,139000,5 - 100K+,1
+373,UCare,Healthcare & Pharma,1450,2 - 1K-10K,0
+374,UKG,Tech,12800,3 - 10K-50K,0
+375,UPS,Automotive & Transportation,500000,5 - 100K+,0
+376,USC (University of Southern California),Education,23942,3 - 10K-50K,0
+377,Uber,Automotive & Transportation,34000,3 - 10K-50K,1
+378,Ubisoft,Tech,19000,3 - 10K-50K,0
+379,Ubisoft / Red Storm,Tech,19000,3 - 10K-50K,0
+380,Ultium Cells,Automotive & Transportation,1700,2 - 1K-10K,0
+381,UniCredit,Finance & Banking,85000,4 - 50K-100K,0
+382,United Internet,Tech,10824,3 - 10K-50K,0
+383,"University of Maryland, College Park",Education,14000,3 - 10K-50K,0
+384,University of Vermont Health Network,Healthcare & Pharma,15000,3 - 10K-50K,0
+385,Upwork,Tech,600,1 - <1K,0
+386,Veritone,Tech,446,1 - <1K,0
+387,Verizon,Telecom,89900,4 - 50K-100K,1
+388,Vertex Pharma,Healthcare & Pharma,10000,3 - 10K-50K,0
+389,Viatris,Healthcare & Pharma,37000,3 - 10K-50K,0
+390,Visa,Finance & Banking,37000,3 - 10K-50K,0
+391,Volkswagen Group,Automotive & Transportation,680000,5 - 100K+,1
+392,WK Kellogg Co,Manufacturing,3300,2 - 1K-10K,1
+393,WME,Media & Entertainment,1000,2 - 1K-10K,0
+394,WPP,Media & Entertainment,100000,5 - 100K+,1
+395,Walgreens,Retail,300000,5 - 100K+,0
+396,Walmart,Retail,2100000,5 - 100K+,0
+397,Washington Post,Media & Entertainment,800,1 - <1K,0
+398,Webflow,Tech,1740,2 - 1K-10K,0
+399,Wells Fargo,Finance & Banking,230000,5 - 100K+,0
+400,Wellstar Health System,Healthcare & Pharma,35000,3 - 10K-50K,0
+401,West Marine,Retail,5000,2 - 1K-10K,0
+402,Whirlpool,Manufacturing,58000,4 - 50K-100K,0
+403,Whitbread,Retail,34000,3 - 10K-50K,0
+404,Whyalla Steelworks (OneSteel),Manufacturing,1700,2 - 1K-10K,0
+405,WiseTech Global,Automotive & Transportation,7000,2 - 1K-10K,0
+406,Wix,Tech,5277,2 - 1K-10K,0
+407,Wonder,Retail,3700,2 - 1K-10K,0
+408,Workday,Tech,21070,3 - 10K-50K,0
+409,ZF Active Safety (ZF Group),Automotive & Transportation,153153,5 - 100K+,0
+410,Zalando,Retail,16582,3 - 10K-50K,0
+411,Zillow,Tech,7068,2 - 1K-10K,0
+412,Zomato (Eternal),Consumer Goods,22370,3 - 10K-50K,0
+413,ZoomInfo,Tech,3000,2 - 1K-10K,0
+414,Zscaler,Tech,8700,2 - 1K-10K,0
+415,airBaltic,Automotive & Transportation,3000,2 - 1K-10K,0
+416,bet365,Media & Entertainment,10000,3 - 10K-50K,0
+417,eBay,Tech,12300,3 - 10K-50K,0
+418,iHeartMedia,Media & Entertainment,10000,3 - 10K-50K,0
+419,id Software,Tech,270,1 - <1K,0
+420,monday.com,Tech,3100,2 - 1K-10K,0
+421,xAI,Tech,500,1 - <1K,0

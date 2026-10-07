@@ -1,0 +1,16 @@
+relationship bcb12e9d-9e19-5439-a4b7-db55c1c6b0a4
+	fromColumn: fact_layoff_events.company_id
+	toColumn: dim_company.company_id
+
+relationship f0e10154-b85c-5db3-a646-6e06d60f3618
+	fromColumn: fact_layoff_events.industry_id
+	toColumn: dim_industry.industry_id
+
+relationship 6f09d1e1-f7d6-5ea4-9637-2aeec6f874a8
+	fromColumn: fact_layoff_events.category_id
+	toColumn: dim_category.category_id
+
+relationship 3d3d1183-1d70-5978-98e6-8cf6cc4c0a85
+	fromColumn: fact_layoff_events.date_key
+	toColumn: dim_date.date_key
+

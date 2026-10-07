@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "AI_Layoffs_2026"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "eeec231a-38da-4531-85f4-ff011da2871b"
+  }
+}

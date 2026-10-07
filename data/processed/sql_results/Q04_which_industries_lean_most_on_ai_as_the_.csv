@@ -1,0 +1,10 @@
+industry,sector_group,events,jobs_cut,ai_jobs_cut,ai_share_pct
+Crypto & Fintech,Tech & Digital,21,16347,13380,81.8
+Tech,Tech & Digital,110,176547,129748,73.5
+Finance & Banking,Non-Tech,39,77721,56235,72.4
+Consumer Goods,Non-Tech,32,51182,16000,31.3
+Automotive & Transportation,Non-Tech,50,199848,32340,16.2
+Manufacturing,Non-Tech,51,32041,4500,14.0
+Media & Entertainment,Non-Tech,46,28417,2830,10.0
+Retail,Non-Tech,35,24062,1875,7.8
+Healthcare & Pharma,Non-Tech,67,28057,0,0.0

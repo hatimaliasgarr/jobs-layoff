@@ -1,0 +1,116 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_industry.industry": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_industry",
+			          "ConceptualProperty": "industry"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Industry": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_category.category_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_category",
+			          "ConceptualProperty": "category_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Stated reason": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_company.company": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_company",
+			          "ConceptualProperty": "company"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Company": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.ai_share_of_jobs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "AI Share of Jobs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AI share": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.layoff_events": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Layoff Events"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Events": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

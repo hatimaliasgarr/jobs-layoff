@@ -1,0 +1,5 @@
+expression ProjectFolder = "D:\Projects\anlytics-projects\p1\data\processed\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 8a3efbf5-874a-5ed0-84d3-bc9c76d99bdf
+
+	annotation PBI_ResultType = Text
+

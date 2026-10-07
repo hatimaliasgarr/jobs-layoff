@@ -1,0 +1,67 @@
+table dim_company
+	lineageTag: 6f695eff-c35f-5338-b53a-49e84cbdf349
+
+	column company_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e8de4df0-5d25-532d-9f80-781b8327eda2
+		summarizeBy: none
+		sourceColumn: company_id
+
+		annotation SummarizationSetBy = User
+
+	column company
+		dataType: string
+		lineageTag: 8e9b8f44-e3b1-51ae-be0c-048dbe54eb9b
+		summarizeBy: none
+		sourceColumn: company
+
+		annotation SummarizationSetBy = User
+
+	column industry
+		dataType: string
+		lineageTag: a3234bd9-f312-544f-a65f-75e6319e7f0f
+		summarizeBy: none
+		sourceColumn: industry
+
+		annotation SummarizationSetBy = User
+
+	column total_workforce
+		dataType: int64
+		formatString: #,0
+		lineageTag: c2bf2ce1-38b7-53f7-856b-0326cbf6e732
+		summarizeBy: sum
+		sourceColumn: total_workforce
+
+		annotation SummarizationSetBy = User
+
+	column company_size_band
+		dataType: string
+		lineageTag: 763951aa-6eff-5e3f-a6f8-dec2b1e8a620
+		summarizeBy: none
+		sourceColumn: company_size_band
+
+		annotation SummarizationSetBy = User
+
+	column is_repeat_layoffer
+		dataType: int64
+		formatString: 0
+		lineageTag: 4b038208-9cfa-5078-bb85-e2ca01126389
+		summarizeBy: none
+		sourceColumn: is_repeat_layoffer
+
+		annotation SummarizationSetBy = User
+
+	partition dim_company = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "dim_company.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"company_id", Int64.Type}, {"company", type text}, {"industry", type text}, {"total_workforce", Int64.Type}, {"company_size_band", type text}, {"is_repeat_layoffer", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

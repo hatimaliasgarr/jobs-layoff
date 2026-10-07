@@ -1,0 +1,75 @@
+table macro_monthly
+	lineageTag: 53c99cf0-194a-50d8-a285-70b6d25f0f53
+
+	column month_start
+		dataType: dateTime
+		formatString: mmm yyyy
+		lineageTag: ce53c7c9-2141-5dc5-a496-5bf0139d5949
+		summarizeBy: none
+		sourceColumn: month_start
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column us_layoffs_discharges_k
+		dataType: double
+		lineageTag: 144d6fe5-1d7d-51e8-925e-2783d12a7b9b
+		summarizeBy: average
+		sourceColumn: us_layoffs_discharges_k
+
+		annotation SummarizationSetBy = User
+
+	column info_sector_layoffs_k
+		dataType: double
+		lineageTag: a301932e-aad4-5d74-9908-6e7ff70c9d1e
+		summarizeBy: average
+		sourceColumn: info_sector_layoffs_k
+
+		annotation SummarizationSetBy = User
+
+	column us_job_openings_k
+		dataType: double
+		lineageTag: 3b88d905-c2e0-5418-b9be-ca5147edcbbf
+		summarizeBy: average
+		sourceColumn: us_job_openings_k
+
+		annotation SummarizationSetBy = User
+
+	column unemployment_rate_pct
+		dataType: double
+		lineageTag: 08673e57-c0d5-5e5a-8f71-dc7f0c9d62d7
+		summarizeBy: average
+		sourceColumn: unemployment_rate_pct
+
+		annotation SummarizationSetBy = User
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: c5415665-41ef-55a5-8c87-fad8375f1c9a
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = User
+
+	column openings_per_layoff
+		dataType: double
+		lineageTag: 3f3a5430-2697-59f1-9a08-48b94b2777e6
+		summarizeBy: average
+		sourceColumn: openings_per_layoff
+
+		annotation SummarizationSetBy = User
+
+	partition macro_monthly = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "macro_monthly.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"month_start", type date}, {"us_layoffs_discharges_k", type number}, {"info_sector_layoffs_k", type number}, {"us_job_openings_k", type number}, {"unemployment_rate_pct", type number}, {"year", Int64.Type}, {"openings_per_layoff", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

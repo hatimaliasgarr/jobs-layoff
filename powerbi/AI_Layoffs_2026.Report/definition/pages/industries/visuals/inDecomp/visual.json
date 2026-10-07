@@ -1,0 +1,131 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "inDecomp",
+  "position": {
+    "x": 16,
+    "y": 412,
+    "z": 0,
+    "width": 760,
+    "height": 272,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "decompositionTreeVisual",
+    "query": {
+      "queryState": {
+        "Analyze": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Jobs Cut"
+                }
+              },
+              "queryRef": "_Measures.Jobs Cut",
+              "nativeQueryRef": "Jobs Cut"
+            }
+          ]
+        },
+        "ExplainBy": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_industry"
+                    }
+                  },
+                  "Property": "sector_group"
+                }
+              },
+              "queryRef": "dim_industry.sector_group",
+              "nativeQueryRef": "sector_group",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_category"
+                    }
+                  },
+                  "Property": "category_label"
+                }
+              },
+              "queryRef": "dim_category.category_label",
+              "nativeQueryRef": "category_label",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_industry"
+                    }
+                  },
+                  "Property": "industry"
+                }
+              },
+              "queryRef": "dim_industry.industry",
+              "nativeQueryRef": "industry",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_company"
+                    }
+                  },
+                  "Property": "company"
+                }
+              },
+              "queryRef": "dim_company.company",
+              "nativeQueryRef": "company",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Decomposition tree: click + to drill sector > reason > industry > company'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

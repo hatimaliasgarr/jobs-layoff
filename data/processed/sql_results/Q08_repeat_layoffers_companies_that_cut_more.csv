@@ -1,0 +1,40 @@
+company,industry,events,total_jobs_cut,ai_driven_events
+Amazon,Tech,5,17379,1
+Sodexo,Retail,5,1619,0
+Volkswagen Group,Automotive & Transportation,3,100000,0
+Microsoft,Tech,3,13682,1
+Tyson Foods,Manufacturing,3,8123,0
+BBC,Media & Entertainment,3,2200,0
+Disney,Media & Entertainment,3,1500,0
+Salesforce,Tech,3,1160,2
+Bristol Myers Squibb,Healthcare & Pharma,3,718,0
+TikTok,Media & Entertainment,3,625,1
+Starbucks,Consumer Goods,3,585,0
+Oracle,Tech,2,30441,1
+Intel,Tech,2,15052,0
+Porsche,Automotive & Transportation,2,8900,0
+Chevron,Energy,2,8000,0
+PayPal,Crypto & Fintech,2,5011,1
+Novo Nordisk,Healthcare & Pharma,2,4108,0
+Uber,Automotive & Transportation,2,3640,1
+Verizon,Telecom,2,3621,1
+Nike,Retail,2,2175,1
+Lucid,Automotive & Transportation,2,1819,0
+General Motors,Automotive & Transportation,2,1740,0
+Crothall / Morrison Healthcare,Healthcare & Pharma,2,1340,0
+WPP,Media & Entertainment,2,1300,0
+Maverick Gaming,Media & Entertainment,2,1088,0
+FedEx,Automotive & Transportation,2,1029,0
+KPMG UK,Finance & Banking,2,800,0
+Campbell's,Manufacturing,2,720,0
+WK Kellogg Co,Manufacturing,2,567,0
+Novartis,Healthcare & Pharma,2,452,0
+BlackRock,Finance & Banking,2,450,0
+Leidos,Tech,2,389,0
+Regional Acceptance (Truist),Finance & Banking,2,361,0
+Prudential Financial,Finance & Banking,2,214,0
+Merck,Healthcare & Pharma,2,201,0
+JPMorgan Chase,Finance & Banking,2,184,0
+Cellares,Healthcare & Pharma,2,168,0
+Johnson & Johnson,Healthcare & Pharma,2,143,0
+CJ Logistics America,Automotive & Transportation,2,113,0

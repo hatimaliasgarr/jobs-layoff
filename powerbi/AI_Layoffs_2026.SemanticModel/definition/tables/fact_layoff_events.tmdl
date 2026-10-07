@@ -1,0 +1,168 @@
+table fact_layoff_events
+	lineageTag: 4c9bd965-b3a0-55b7-be82-865f5e09f162
+
+	column event_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 70d29184-6562-5b6f-82c9-ab96e2d46b56
+		summarizeBy: none
+		sourceColumn: event_id
+
+		annotation SummarizationSetBy = User
+
+	column company_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e250d1a8-b80b-5d0a-a5cf-154c9c879331
+		summarizeBy: none
+		sourceColumn: company_id
+
+		annotation SummarizationSetBy = User
+
+	column industry_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c7189052-bdcd-5d65-bf24-fcaa307a99da
+		summarizeBy: none
+		sourceColumn: industry_id
+
+		annotation SummarizationSetBy = User
+
+	column category_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: db614c51-dc16-54d7-9e1c-e26c51c47f80
+		summarizeBy: none
+		sourceColumn: category_id
+
+		annotation SummarizationSetBy = User
+
+	column date_key
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: ebeb6cbe-57a9-51ec-823f-fab243cfd1a2
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = User
+
+	column date_precision
+		dataType: string
+		lineageTag: cc94ff95-c0b8-52d4-bb13-98c7945eb8f8
+		summarizeBy: none
+		sourceColumn: date_precision
+
+		annotation SummarizationSetBy = User
+
+	column period_label
+		dataType: string
+		lineageTag: 55500bab-4eea-5d6a-af34-713c361b0f59
+		summarizeBy: none
+		sourceColumn: period_label
+
+		annotation SummarizationSetBy = User
+
+	column people_cut
+		dataType: int64
+		formatString: #,0
+		lineageTag: 323dfa8d-ef0a-577f-90c8-64f59c5a3898
+		summarizeBy: sum
+		sourceColumn: people_cut
+
+		annotation SummarizationSetBy = User
+
+	column total_workforce
+		dataType: int64
+		formatString: #,0
+		lineageTag: f28e8f88-9006-538a-93f3-4324d74bd088
+		summarizeBy: sum
+		sourceColumn: total_workforce
+
+		annotation SummarizationSetBy = User
+
+	column workforce_pct
+		dataType: double
+		formatString: 0.0%
+		lineageTag: dd681e84-2ecf-5539-81c1-1d7a9ae687db
+		summarizeBy: none
+		sourceColumn: workforce_pct
+
+		annotation SummarizationSetBy = User
+
+	column is_ai_driven
+		dataType: int64
+		formatString: 0
+		lineageTag: 71646def-8c91-5cff-972b-b65b3ba83e54
+		summarizeBy: none
+		sourceColumn: is_ai_driven
+
+		annotation SummarizationSetBy = User
+
+	column is_shutdown
+		dataType: int64
+		formatString: 0
+		lineageTag: 7e90f17c-8ad6-55d2-a196-339196d8e212
+		summarizeBy: none
+		sourceColumn: is_shutdown
+
+		annotation SummarizationSetBy = User
+
+	column severity_band
+		dataType: string
+		lineageTag: dc74c084-4560-53f7-a3ec-c921fb2ca3fa
+		summarizeBy: none
+		sourceColumn: severity_band
+
+		annotation SummarizationSetBy = User
+
+	column layoff_size_band
+		dataType: string
+		lineageTag: f830df86-7e5a-5ca9-b385-c431244553fd
+		summarizeBy: none
+		sourceColumn: layoff_size_band
+
+		annotation SummarizationSetBy = User
+
+	column company_event_no
+		dataType: int64
+		formatString: 0
+		lineageTag: 2c2904f4-7960-5cc0-81fd-529a315aaccb
+		summarizeBy: none
+		sourceColumn: company_event_no
+
+		annotation SummarizationSetBy = User
+
+	column source_type
+		dataType: string
+		lineageTag: 4544cd8b-388e-5b2f-8493-16c3a02da1f1
+		summarizeBy: none
+		sourceColumn: source_type
+
+		annotation SummarizationSetBy = User
+
+	column source_url
+		dataType: string
+		lineageTag: 0b4a5f37-689b-55a5-aa84-09c5d5268282
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: source_url
+
+		annotation SummarizationSetBy = User
+
+	partition fact_layoff_events = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "fact_layoff_events.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"event_id", Int64.Type}, {"company_id", Int64.Type}, {"industry_id", Int64.Type}, {"category_id", Int64.Type}, {"date_key", Int64.Type}, {"date_precision", type text}, {"period_label", type text}, {"people_cut", Int64.Type}, {"total_workforce", Int64.Type}, {"workforce_pct", type number}, {"is_ai_driven", Int64.Type}, {"is_shutdown", Int64.Type}, {"severity_band", type text}, {"layoff_size_band", type text}, {"company_event_no", Int64.Type}, {"source_type", type text}, {"source_url", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

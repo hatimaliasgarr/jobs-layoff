@@ -1,0 +1,476 @@
+event_id,company_id,industry_id,category_id,date_key,date_precision,period_label,people_cut,total_workforce,workforce_pct,is_ai_driven,is_shutdown,severity_band,layoff_size_band,company_event_no,source_type,source_url
+1,1,8,2,20260831,Day,Aug 2026,738,13000,0.057,0,0,2 - 5-10%,3 - 500-999,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+2,2,12,1,20260518,Day,May 2026,110,180,0.611,1,0,4 - 25-99%,2 - 100-499,1,News media,https://www.calcalistech.com/ctechnews/article/rjwumhukfx
+3,3,12,2,20260101,Month,Jan 2026,1700,44000,0.039,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs
+4,4,7,2,20260301,Month,Mar 2026,162,500,0.324,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.newsweek.com/list-of-companies-doing-layoffs-in-march-11569808
+5,5,12,1,,Year,2026 (no month),11000,750000,0.015,1,0,1 - <5%,5 - 5K+,1,News media,https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/
+6,6,6,1,20260520,Day,May 2026,2250,20450,0.11,1,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://www.theinsurer.com/ti/news/exclusive-acrisure-to-cut-2250-jobs-as-williams-ties-layoffs-to-ai-and-2026-05-20/
+7,7,1,3,20260716,Day,Jul 2026,500,6000,0.083,0,0,2 - 5-10%,3 - 500-999,1,News media,https://www.rte.ie/news/2026/0716/1583614-aer-lingus-jobs/
+8,8,8,3,20260309,Day,Mar 2026,240,6000,0.04,0,0,1 - <5%,2 - 100-499,1,News media,https://www.newsweek.com/list-of-companies-doing-layoffs-in-march-11569808
+9,9,1,3,20260106,Day,Jan 2026,729,3000,0.243,0,0,3 - 10-25%,3 - 500-999,1,News media,https://www.coloradopolitics.com/2026/01/07/729-employees-to-be-laid-off-at-usps-transfer-hub-in-aurora/
+10,10,9,2,20260301,Month,Mar 2026,1000,3500,0.28600000000000003,0,0,4 - 25-99%,4 - 1K-4.9K,1,News media,https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/
+11,11,8,2,20260305,Day,Mar 2026,19,55,0.345,0,0,4 - 25-99%,1 - <100,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+12,12,12,1,20260128,Day,Jan 2026,16000,350000,0.046,1,0,1 - <5%,5 - 5K+,1,News media,https://www.cnbc.com/2026/01/28/amazon-layoffs-anti-bureaucracy-ai.html
+13,12,12,2,20260421,Day,Apr 2026,616,1550000,0.0,0,0,1 - <5%,3 - 500-999,2,News media,https://www.wlrn.org/business/2026-04-21/florida-homestead-amazon-lay-off
+14,12,12,2,20260828,Day,Aug 2026,148,1550000,0.0,0,0,1 - <5%,2 - 100-499,3,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+15,12,12,2,20260831,Day,Aug 2026,121,1550000,0.0,0,0,1 - <5%,2 - 100-499,4,News media,https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/
+16,12,12,2,20260917,Day,Sep 2026,494,1550000,0.0,0,0,1 - <5%,2 - 100-499,5,News media,https://www.supplychaindive.com/news/amazon-to-temporarily-close-florida-facility-lay-off-nearly-500/825555/
+17,13,12,1,20260528,Day,May 2026,2500,29000,0.086,1,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://www.calcalistech.com/ctechnews/article/u4qmp07cv
+18,14,12,4,20260925,Day,Sep 2026,70,50000,0.001,0,0,1 - <5%,1 - <100,1,News media,https://talkoftitusville.com/2026/09/28/nasa-to-insource-operations-resulting-in-70-layoffs-at-kennedy-space-center/
+19,15,2,2,20260917,Day,Sep 2026,260,2800,0.09300000000000001,0,0,2 - 5-10%,2 - 100-499,1,News media,https://www.pressdemocrat.com/2026/09/17/amys-kitchen-santa-rosa-sonoma-county-jobs-plant-closure/
+20,16,9,4,20260818,Day,Aug 2026,168,1400,0.12,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.packagingdive.com/news/anchor-glass-permanent-closure-warner-robins-georgia/828221/
+21,17,12,1,20260101,Month,Jan 2026,350,5000,0.07,1,0,2 - 5-10%,2 - 100-499,1,News media,https://www.cheapism.com/2026-layoffs-major-american-companies/
+22,18,12,1,20260821,Day,Aug 2026,200,166000,0.001,1,0,1 - <5%,2 - 100-499,1,News media,https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/
+23,19,11,2,20261001,Day,Oct 2026,174,278390,0.001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.thebanner.com/culture/food-drink/guinness-brewery-closing-NY722XELBVDKZORLQKNUJCUGSA/
+24,20,12,1,20260506,Day,May 2026,250,3000,0.083,1,0,2 - 5-10%,2 - 100-499,1,News media,https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213
+25,21,9,2,20260201,Month,Feb 2026,140,400,0.35,0,0,4 - 25-99%,2 - 100-499,1,News media,https://patch.com/new-jersey/fairlawn-saddlebrook/layoffs-loom-century-old-bergen-county-nj-company
+26,22,8,2,20260831,Day,Aug 2026,99,127,0.78,0,0,4 - 25-99%,1 - <100,1,News media,https://www.biospace.com/business/arsenalbio-sacrifices-majority-of-staff-in-pivot-to-in-vivo-car-t
+27,23,12,1,20260616,Day,Jun 2026,200,500,0.4,1,0,4 - 25-99%,2 - 100-499,1,News media,https://www.calcalistech.com/ctechnews/article/xrqudqiq6
+28,24,8,2,20261002,Day,Oct 2026,86,1400,0.061,0,0,2 - 5-10%,1 - <100,1,News media,https://www.wftv.com/news/local/more-than-100-jobs-are-being-cut-2-orlando-companies-announce-layoffs/C6DCBVC3RFFLBHOQOQ4BW2PAYQ/
+29,25,10,2,20260515,Day,May 2026,60,3300,0.018000000000000002,0,0,1 - <5%,1 - <100,1,News media,https://apnews.com/article/news-industry-ap-layoffs-3906d6f2c16621746515adc51a04b829
+30,26,12,1,20260311,Day,Mar 2026,1600,16000,0.1,1,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://www.bloomberg.com/news/articles/2026-03-11/atlassian-team-ceo-announces-layoffs-of-1-600-citing-ai-shift
+31,27,12,2,20260122,Day,Jan 2026,1000,14300,0.07,0,0,2 - 5-10%,4 - 1K-4.9K,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/769397/000076939726000006/adsk-20260122.htm
+32,28,8,2,20260430,Day,Apr 2026,98,752,0.13,0,0,3 - 10-25%,1 - <100,1,News media,https://www.biospace.com/biospace-layoff-tracker
+33,29,10,3,20260415,Day,Apr 2026,2000,21508,0.09300000000000001,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://variety.com/2026/tv/news/bbc-to-cut-up-to-2000-jobs-major-cost-saving-move-1236722352/
+34,29,10,3,20260928,Day,Sep 2026,110,21508,0.005,0,0,1 - <5%,2 - 100-499,2,News media,https://thedesk.net/2026/09/bbc-media-tech-cuts-110-jobs-iplayer-sounds/
+35,29,10,3,20261001,Day,Oct 2026,90,21508,0.004,0,0,1 - <5%,1 - <100,3,News media,https://pressgazette.co.uk/news/bbc-to-cut-local-radio-and-regional-tv-news-with-90-jobs-at-risk/
+36,30,3,2,20260507,Day,May 2026,700,2333,0.3,0,0,4 - 25-99%,3 - 500-999,1,News media,https://www.stocktitan.net/sec-filings/BILL/8-k-bill-holdings-inc-reports-material-event-a30cd671905e.html
+37,31,1,3,20260729,Day,Jul 2026,8000,154000,0.052000000000000005,0,0,2 - 5-10%,5 - 5K+,1,News media,https://www.euronews.com/business/2026/07/29/bmw-plans-to-cut-around-8000-jobs-in-major-cost-saving-drive
+38,32,9,2,20260916,Day,Sep 2026,115,500,0.23,0,0,3 - 10-25%,2 - 100-499,1,News media,https://communitynews.org/sections/business-cns/two-central-jersey-employers-cut-more-than-600-jobs-while-relocating/
+39,33,9,2,20260915,Day,Sep 2026,59,2000,0.028999999999999998,0,0,1 - <5%,1 - <100,1,News media,https://943thepoint.com/ixp/397/p/barrette-outdoor-living-layoffs/
+40,34,13,2,20260615,Day,Jun 2026,690,38683,0.018000000000000002,0,0,1 - <5%,3 - 500-999,1,News media,https://www.ctvnews.ca/business/article/bell-cutting-nearly-700-jobs-amid-ongoing-organizational-changes-bell-media-not-impacted/
+41,35,8,3,20260317,Day,Mar 2026,86,288,0.299,0,0,4 - 25-99%,1 - <100,1,News media,https://endpoints.news/bicycle-to-cut-30-of-staff-after-cancer-drugs-regulatory-setback/
+42,36,12,1,20260527,Day,May 2026,150,650,0.231,1,0,3 - 10-25%,2 - 100-499,1,News media,https://en.globes.co.il/en/article-ai-forces-israeli-unicorn-bigid-to-lay-off-150-1001544054
+43,37,9,2,20260917,Day,Sep 2026,1500,31000,0.048,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.marketscreener.com/news/bilfinger-abandons-catch-up-push-and-cuts-1-500-jobs-ce785bd3d888f026
+44,38,8,2,20260924,Day,Sep 2026,117,3221,0.036000000000000004,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+45,39,8,4,20260505,Day,May 2026,1860,8455,0.22,0,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://www.bloomberg.com/news/articles/2026-05-05/biontech-to-cut-as-many-as-1-860-jobs-as-covid-jab-sales-drop
+46,40,3,2,20260625,Day,Jun 2026,85,565,0.15,0,0,3 - 10-25%,1 - <100,1,News media,https://finance.yahoo.com/markets/crypto/articles/bitgo-cuts-15-workforce-focus-230517195.html
+47,41,3,3,20260911,Day,Sep 2026,60,200,0.3,0,0,4 - 25-99%,1 - <100,1,News media,https://www.swissinfo.ch/ger/bitcoin-suisse-streicht-in-der-schweiz-bis-zu-60-stellen/92042606
+48,42,6,3,20260101,Month,Jan 2026,250,24600,0.01,0,0,1 - <5%,2 - 100-499,1,News media,https://finance.yahoo.com/news/layoffs-surge-2026-10-major-174540901.html
+49,42,6,3,20260615,Day,Jun 2026,200,24600,0.008,0,0,1 - <5%,2 - 100-499,2,News media,https://uk.finance.yahoo.com/news/blackrock-sheds-another-200-jobs-230347094.html
+50,43,3,1,20260226,Day,Feb 2026,4000,10000,0.4,1,0,4 - 25-99%,4 - 1K-4.9K,1,News media,https://www.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey
+51,44,9,2,20260828,Day,Aug 2026,53,1835,0.028999999999999998,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+52,45,8,2,20260821,Day,Aug 2026,60,7500,0.008,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/layoff_services_warn
+53,46,3,1,20260405,Day,Apr 2026,250,750,0.33299999999999996,1,0,4 - 25-99%,2 - 100-499,1,News media,https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/
+54,47,12,1,20260910,Day,Sep 2026,200,1000,0.2,1,0,3 - 10-25%,2 - 100-499,1,News media,https://www.bankier.pl/wiadomosc/AI-zabiera-etaty-w-polskim-gigancie-Booksy-zwolni-200-osob-9195497.html
+55,48,1,3,,Multi-year plan,2025-30 program,13000,418000,0.031,0,0,1 - <5%,5 - 5K+,1,News media,https://www.electrive.com/2025/09/25/bosch-plans-to-cut-another-13000-jobs-in-its-mobility-division/
+56,49,9,2,20260909,Day,Sep 2026,122,122,1.0,0,1,5 - Shutdown,2 - 100-499,1,News media,https://www.wxii12.com/article/north-carolina-hosiery-company-closes-asheboro-layoffs/73763446
+57,50,2,5,20260303,Day,Mar 2026,484,1217,0.39799999999999996,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.thespiritsbusiness.com/2026/03/brewdog-buyout-484-jobs-lost-as-38-bars-close/
+58,51,8,3,20260201,Month,Feb 2026,247,34000,0.006999999999999999,0,0,1 - <5%,2 - 100-499,1,News media,https://njbiz.com/bristol-myers-squibb-nj-layoffs-cost-cutting/
+59,51,8,3,20260422,Day,Apr 2026,206,34000,0.006,0,0,1 - <5%,2 - 100-499,2,News media,https://www.roi-nj.com/2026/04/22/healthcare/bristol-myers-squibb-files-warn-notice-for-206-jobs/
+60,51,8,3,20260922,Day,Sep 2026,265,34000,0.008,0,0,1 - <5%,2 - 100-499,3,Government / WARN filing,https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf
+61,52,2,3,20260629,Day,Jun 2026,9000,45000,0.2,0,0,3 - 10-25%,5 - 5K+,1,News media,https://www.bnnbloomberg.ca/business/international/2026/06/29/british-american-tobacco-cost-cutting-hits-9000-roles/
+62,53,12,4,20260506,Day,May 2026,170,250,0.68,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.gamespot.com/articles/mindseye-dev-reportedly-laid-off-170-of-250-employees/1100-6539796/
+63,54,2,2,20260811,Day,Aug 2026,197,1614,0.122,0,0,3 - 10-25%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN
+64,55,12,2,20260625,Day,Jun 2026,400,800,0.5,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.windowscentral.com/gaming/destiny-2-dev-bungie-hit-with-major-layoffs-across-most-of-the-destiny-team-and-marathon-says-sony-ceo
+65,56,10,5,20260727,Day,Jul 2026,180,510,0.353,0,0,4 - 25-99%,2 - 100-499,1,News media,https://variety.com/2026/digital/news/buzzfeed-layoffs-employees-byron-allen-acquires-company-1236822122/
+66,57,10,2,20260320,Day,Mar 2026,66,1100,0.06,0,0,2 - 5-10%,1 - <100,1,News media,https://deadline.com/2026/03/cbs-news-layoffs-bari-weiss-1236761230/
+67,58,1,2,20260817,Day,Aug 2026,57,1376,0.040999999999999995,0,0,1 - <5%,1 - <100,1,News media,https://www.wfmz.com/news/area/lehighvalley/lehigh-county/western-lehigh-county/logistics-company-to-close-its-largest-lehigh-valley-warehouse-dozens-of-jobs-impacted/article_851c6023-dc67-4ee7-a9c6-9d978e0f788d.html
+68,58,1,2,20260902,Day,Sep 2026,56,1376,0.040999999999999995,0,0,1 - <5%,1 - <100,2,News media,https://www.tristatealert.com/newville-logistics-company-closing-shedding-more-than-50-jobs
+69,59,10,2,20260325,Day,Mar 2026,50,3000,0.017,0,0,1 - <5%,1 - <100,1,News media,https://www.newsmax.com/newsfront/cnn-layoffs-paramount/2026/03/24/id/1250576/
+70,60,13,2,20260911,Day,Sep 2026,260,486,0.535,0,0,4 - 25-99%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1738177/000119312526389901/cmbmf-20260911.htm
+71,61,9,2,20260501,Day,May 2026,205,568,0.361,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.wfaa.com/article/news/local/campbells-soup-factory-layoffs-paris-texas/287-ed71fa56-6a39-49f6-8921-db61b9d006f16
+72,61,9,3,20260903,Day,Sep 2026,515,13700,0.038,0,0,1 - <5%,3 - 500-999,2,News media,https://www.inquirer.com/business/campbells-layoffs-camden-nj-20260903.html
+73,62,3,5,20260303,Day,Mar 2026,1100,70000,0.016,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://chicago.suntimes.com/work/2026/03/05/capital-one-laying-off-warn-1700-employees-riverwoods-discover
+74,63,1,2,20260707,Day,Jul 2026,325,3000,0.10800000000000001,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.carlex.com/news/carlex-glass-america-llc-announces-planned-closure-of-vonore-manufacturing-facility/
+75,64,1,2,20260930,Day,Sep 2026,179,1100,0.163,0,0,3 - 10-25%,2 - 100-499,1,Government / WARN filing,https://virginiaworks.gov/warn-notice/40669/
+76,65,1,2,20260409,Day,Apr 2026,185,1700,0.109,0,0,3 - 10-25%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1683606/000119312526149752/cars-20260406.htm
+77,66,6,2,20260501,Day,May 2026,332,1661,0.2,0,0,3 - 10-25%,2 - 100-499,1,News media,https://qz.com/cboe-layoffs-workforce-reduction-core-businesses-050126
+78,67,8,4,20260821,Day,Aug 2026,100,318,0.314,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.biopharmadive.com/news/cellares-layoffs-cell-therapy-manufacturing/828588/
+79,67,8,4,20260901,Day,Sep 2026,68,318,0.214,0,0,3 - 10-25%,1 - <100,2,News media,https://www.biospace.com/biospace-layoff-tracker
+80,68,5,1,20260723,Day,Jul 2026,1300,20000,0.065,1,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://www.lbc.co.uk/article/a793727ac56140f2be9069d8be0463b2-5Hjdf4c_2/
+81,69,10,2,20260909,Day,Sep 2026,340,1270,0.268,0,0,4 - 25-99%,2 - 100-499,1,News media,https://finance.yahoo.com/news/channel-4-cut-340-jobs-120955840.html
+82,70,1,2,20260729,Day,Jul 2026,145,1440,0.10099999999999999,0,0,3 - 10-25%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1777393/000177739326000057/chpt-20260728.htm
+83,71,9,2,20260930,Day,Sep 2026,56,2700,0.021,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://www.twc.texas.gov/data-reports/warn-notice
+84,72,5,3,20260701,Day,Jul 2026,180,45000,0.004,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/layoff_services_warn/
+85,72,5,3,,Year,2026 (no month),7820,45000,0.174,0,0,3 - 10-25%,5 - 5K+,2,News media,https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/
+86,73,3,1,20260731,Day,Jul 2026,150,1500,0.1,1,0,3 - 10-25%,2 - 100-499,1,News media,https://www.pymnts.com/news/banking/2026/chime-cuts-10percent-of-workforce-in-ai-pivot/
+87,74,8,2,20260201,Month,Feb 2026,134,70000,0.002,0,0,1 - <5%,2 - 100-499,1,News media,https://patch.com/new-jersey/morristown/dozens-workers-be-laid-morris-plains-healthcare-company
+88,75,12,1,20260513,Day,May 2026,4000,80000,0.05,1,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://blogs.cisco.com/news/our-path-forward
+89,76,6,1,,Multi-year plan,2025-26 program,20000,200000,0.1,1,0,3 - 10-25%,5 - 5K+,1,News media,https://www.newsnationnow.com/business/major-employers-job-cuts-2026/
+90,77,8,2,20260923,Day,Sep 2026,73,11000,0.006999999999999999,0,0,1 - <5%,1 - <100,1,News media,https://www.fiercehealthcare.com/finance/fierce-healthcare-layoff-tracker-2026-job-cuts-eliminations-health-systems-hospitals
+91,78,11,2,20260427,Day,Apr 2026,1300,17000,0.076,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://finance.yahoo.com/economy/policy/articles/claires-closes-154-stores-loss-153148641.html
+92,79,12,1,20260521,Day,May 2026,290,1300,0.223,1,0,3 - 10-25%,2 - 100-499,1,News media,https://fortune.com/2026/05/18/ai-agent-to-human-ratio-clickup/
+93,80,6,3,20260323,Day,Mar 2026,600,3000,0.2,0,0,3 - 10-25%,3 - 500-999,1,News media,https://www.cityam.com/close-brothers-to-axe-fifth-of-jobs-after-motor-finance-wipeout-warning/
+94,81,12,1,20260507,Day,May 2026,1100,5156,0.213,1,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://blog.cloudflare.com/building-for-the-future/
+95,82,12,1,20260429,Day,Apr 2026,15000,357600,0.042,1,0,1 - <5%,5 - 5K+,1,News media,https://www.business-standard.com/companies/news/cognizant-may-cut-7-000-15-000-jobs-as-part-of-its-project-leap-programme-126043001254_1.html
+96,83,3,1,20260505,Day,May 2026,700,5000,0.14,1,0,3 - 10-25%,3 - 500-999,1,News media,https://www.cnbc.com/2026/05/05/coinbase-cuts-headcount-by-14percent-citing-ai-acceleration-the-shares-are-gaining.html
+97,84,6,5,20260508,Day,May 2026,6900,39867,0.17300000000000001,0,0,3 - 10-25%,5 - 5K+,1,News media,https://www.bloomberg.com/news/articles/2026-05-08/commerzbank-raises-outlook-as-orlopp-steps-up-unicredit-defense
+98,85,12,5,20260306,Day,Mar 2026,110,18000,0.006,0,0,1 - <5%,2 - 100-499,1,News media,https://www.trueup.io/layoffs
+99,86,8,4,20260908,Day,Sep 2026,1037,99000,0.01,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.fiercehealthcare.com/providers/tenet-laying-1000-conifer-employees-amid-commonspirit-contract-breakup
+100,87,8,2,20260703,Day,Jul 2026,800,17000,0.047,0,0,1 - <5%,3 - 500-999,1,News media,https://www.peoplematters.in/news/strategic-hr/corrohealths-800-layoffs-snowball-into-kerala-centre-row-over-labour-laws-50719
+101,88,9,2,20260612,Day,Jun 2026,73,21500,0.003,0,0,1 - <5%,1 - <100,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1755672/000175567226000020/ctva-20231108.htm
+102,89,10,2,20260716,Day,Jul 2026,43,2170,0.02,0,0,1 - <5%,1 - <100,1,News media,https://www.bnnbloomberg.ca/business/company-news/2026/07/16/corus-to-centralize-calgary-edmonton-productions-of-global-news-some-jobs-to-be-cut/
+103,90,12,5,20260706,Day,Jul 2026,150,2650,0.057,0,0,2 - 5-10%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1651562/000165156226000055/cour-20260706.htm
+104,91,8,2,20260301,Month,Mar 2026,795,10000,0.08,0,0,2 - 5-10%,3 - 500-999,1,Government / WARN filing,https://www.pa.gov/agencies/dli/programs-services/workforce-development-home/warn-requirements/warn-notices
+105,91,8,2,20260831,Day,Aug 2026,545,10000,0.055,0,0,2 - 5-10%,3 - 500-999,2,News media,https://virginiabusiness.com/crothall-healthcare-vcu-health-layoffs/
+106,92,12,1,20260201,Month,Feb 2026,500,10000,0.05,1,0,2 - 5-10%,3 - 500-999,1,News media,https://fortune.com/2026/03/07/is-ai-taking-jobs-payrolls-drop-narrative-outlook/
+107,93,3,1,20260319,Day,Mar 2026,180,1500,0.12,1,0,3 - 10-25%,2 - 100-499,1,News media,https://www.bloomberg.com/news/articles/2026-03-19/crypto-com-to-lay-off-12-of-staff-in-ai-overhaul
+108,94,12,3,20260828,Day,Aug 2026,70,450,0.156,0,0,3 - 10-25%,1 - <100,1,News media,https://www.thejournal.ie/cubic3-layoffs-ireland-7144462-Aug2026/
+109,95,1,2,20260930,Day,Sep 2026,84,160000,0.001,0,0,1 - <5%,1 - <100,1,News media,https://www.yahoo.com/news/articles/st-louis-logistics-facility-terminate-174213838.html
+110,96,10,3,20260501,Day,May 2026,100,200,0.5,0,0,4 - 25-99%,2 - 100-499,1,News media,https://x.com/cameron_arcand
+111,97,1,2,20260729,Day,Jul 2026,375,28000,0.013000000000000001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.opb.org/article/2026/07/29/portland-daimler-truck-manufacturing-moves-carolinas/
+112,98,8,3,20260915,Day,Sep 2026,124,16000,0.008,0,0,1 - <5%,2 - 100-499,1,News media,https://www.nhpr.org/nh-news/2026-09-16/dartmouth-dhmc-layoff-124-employees-cuts-303-positions-nh-vt
+113,99,12,1,20260507,Day,May 2026,250,1000,0.25,1,0,4 - 25-99%,2 - 100-499,1,News media,https://www.bloomberg.com/news/articles/2026-05-07/google-translate-rival-deepl-announces-plans-to-cut-25-of-staff
+114,100,12,1,20260316,Day,Mar 2026,11000,108000,0.102,1,0,3 - 10-25%,5 - 5K+,1,News media,https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/
+115,101,2,3,20260817,Day,Aug 2026,1922,29860,0.064,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://uk.finance.yahoo.com/news/diageo-sheds-nearly-2-000-114842558.html
+116,102,8,2,20260227,Day,Feb 2026,30,150,0.2,0,0,3 - 10-25%,1 - <100,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+117,103,10,2,20260409,Day,Apr 2026,1000,220000,0.005,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.businesstoday.in/latest/corporate/story/disney-plans-up-to-1000-layoffs-under-new-ceo-josh-damaro-524945-2026-04-09
+118,103,10,2,20260721,Day,Jul 2026,200,220000,0.001,0,0,1 - <5%,2 - 100-499,2,News media,https://www.hollywoodreporter.com/business/business-news/new-disney-layoffs-pixar-streamlining-1236652502/
+119,103,10,3,20260929,Day,Sep 2026,300,231000,0.001,0,0,1 - <5%,2 - 100-499,3,News media,https://finance.yahoo.com/markets/stocks/articles/disney-layoffs-2026-300-jobs-180653737.html
+120,104,12,5,20260923,Day,Sep 2026,175,876,0.2,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.sltrib.com/news/2026/10/01/domo-lays-off-175-utah-workers/
+121,105,12,3,20260904,Day,Sep 2026,90,314,0.287,0,0,4 - 25-99%,1 - <100,1,News media,https://www.worthplaying.com/article/2026/9/4/news/150912-dont-nods-organizational-transformation-plan-results-in-90-layoffs/
+122,106,9,1,20260129,Day,Jan 2026,4500,36000,0.125,1,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://www.livenowfox.com/news/2026-layoffs-list-companies-cutting-jobs-year
+123,107,9,2,20260813,Day,Aug 2026,75,1300,0.057999999999999996,0,0,2 - 5-10%,1 - <100,1,News media,https://wtaq.com/2026/08/17/75-workers-at-durr-cts-plant-in-de-pere-to-be-laid-off-starting-in-october/
+124,108,2,5,20260402,Day,Apr 2026,526,800,0.6579999999999999,0,0,4 - 25-99%,3 - 500-999,1,News media,https://bizwest.com/2026/04/03/beverage-distributor-to-lay-off-526-workers-including-139-in-loveland/
+125,109,4,2,20260913,Day,Sep 2026,62,2700,0.023,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf
+126,110,12,1,20260624,Day,Jun 2026,250,3500,0.071,1,0,2 - 5-10%,2 - 100-499,1,News media,https://www.bizjournals.com/sanfrancisco/news/2026/06/24/elastic-layoffs-ai-search.html
+127,111,9,4,20260512,Day,May 2026,2100,52000,0.04,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.bloomberg.com/news/articles/2026-05-12/italian-government-convenes-talks-on-planned-electrolux-job-cuts
+128,112,12,2,20260310,Day,Mar 2026,300,13000,0.023,0,0,1 - <5%,2 - 100-499,1,News media,https://insider-gaming.com/ea-makes-layoffs-across-across-battlefield-studios/
+129,113,12,1,20260629,Day,Jun 2026,100,330,0.303,1,0,4 - 25-99%,2 - 100-499,1,News media,https://www.calcalistech.com/ctechnews/article/sycgn6yxze
+130,114,8,2,20260915,Day,Sep 2026,216,97100,0.002,0,0,1 - <5%,2 - 100-499,1,News media,https://www.laworks.net/Downloads/WFD/WarnNotices2026.pdf
+131,115,8,2,20260805,Day,Aug 2026,93,1179,0.079,0,0,2 - 5-10%,1 - <100,1,News media,https://www.theglobeandmail.com/investing/markets/stocks/EBS/pressreleases/3704560/emergent-biosolutions-announces-restructuring-amid-turnaround-efforts/
+132,116,10,3,20260716,Day,Jul 2026,500,25000,0.02,0,0,1 - <5%,3 - 500-999,1,News media,https://next.io/news/people/entain-cfo-efficiency-drive-500-job-cuts/
+133,117,12,2,20260311,Day,Mar 2026,200,600,0.33299999999999996,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.trueup.io/layoffs
+134,118,12,4,20260324,Day,Mar 2026,1000,5000,0.2,0,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://kotaku.com/epic-games-laying-off-over-1000-employees-blames-drop-in-fortnite-engagement-2000681459
+135,119,13,4,20260115,Day,Jan 2026,1600,12600,0.127,0,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://www.bloomberg.com/news/articles/2026-01-15/ericsson-plans-to-ax-1-600-jobs-in-sweden-in-cost-cutting-push
+136,120,11,2,20260804,Day,Aug 2026,1175,2500,0.47,0,0,4 - 25-99%,4 - 1K-4.9K,1,News media,https://distributionstrategy.com/2026/08/essendant-layoffs-top-1100-across-five-states-as-restructuring-deepens/
+137,121,3,2,20260623,Day,Jun 2026,54,270,0.2,0,0,3 - 10-25%,1 - <100,1,News media,https://blog.ethereum.org/2026/06/23/ef-structure
+138,122,12,2,20260805,Day,Aug 2026,220,1820,0.121,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html
+139,123,9,2,20260618,Day,Jun 2026,3200,33000,0.09699999999999999,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://www.reuters.com/business/evonik-cut-3200-jobs-worldwide-by-2029-it-extends-restructuring-programme-2026-06-18/
+140,124,8,2,20260310,Day,Mar 2026,800,5000,0.16,0,0,3 - 10-25%,3 - 500-999,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+141,125,12,2,20260922,Day,Sep 2026,58,16000,0.004,0,0,1 - <5%,1 - <100,1,News media,https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/
+142,126,1,2,20260609,Day,Jun 2026,230,19000,0.012,0,0,1 - <5%,2 - 100-499,1,News media,https://www.geekwire.com/2026/expeditors-cuts-230-tech-jobs-in-seattle-region-ending-decades-long-policy-against-layoffs/
+143,127,3,2,20260803,Day,Aug 2026,69,630,0.11,0,0,3 - 10-25%,1 - <100,1,News media,https://www.cryptotimes.io/2026/08/03/falconx-reportedly-cuts-10-of-workforce-in-restructuring-effort/
+144,128,11,2,20260318,Day,Mar 2026,373,59330,0.006,0,0,1 - <5%,2 - 100-499,1,News media,https://www.wfae.org/business/2026-03-18/family-dollar-to-shut-down-matthews-distribution-center-cutting-more-than-370-jobs
+145,129,10,2,20260606,Day,Jun 2026,300,5000,0.06,0,0,2 - 5-10%,2 - 100-499,1,News media,https://awfulannouncing.com/fanduel/layoffs-several-hundred-employees.html
+146,130,1,2,20260101,Month,Jan 2026,856,550000,0.002,0,0,1 - <5%,3 - 500-999,1,News media,https://www.recruitingnewsnetwork.com/posts/major-companies-entering-2026-with-mass-layoffs-already-underway
+147,130,1,2,20260815,Day,Aug 2026,173,530000,0.0,0,0,1 - <5%,2 - 100-499,2,News media,https://finance.yahoo.com/small-business/articles/fedex-closes-more-u-locations-160300304.html
+148,131,6,2,20260508,Day,May 2026,800,80000,0.01,0,0,1 - <5%,3 - 500-999,1,News media,https://ts2.tech/en/fidelity-layoffs-2026-800-jobs-cut-as-boston-firm-rebuilds-tech-teams-and-hires-thousands/
+149,132,6,5,20260508,Day,May 2026,740,27000,0.027000000000000003,0,0,1 - <5%,3 - 500-999,1,News media,https://www.bankingdive.com/news/fifth-third-comerica-layoffs-job-cuts-ceo-spence-earnings/810003/
+150,133,3,2,20260911,Day,Sep 2026,98,38000,0.003,0,0,1 - <5%,1 - <100,1,News media,https://finance.yahoo.com/markets/stocks/articles/major-n-j-financial-services-180050715.html
+151,134,12,2,20260306,Day,Mar 2026,500,25000,0.02,0,0,1 - <5%,3 - 500-999,1,News media,https://www.trueup.io/layoffs
+152,135,2,2,20260814,Day,Aug 2026,72,1205,0.06,0,0,2 - 5-10%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN
+153,136,2,2,20260507,Day,May 2026,185,2000,0.092,0,0,2 - 5-10%,2 - 100-499,1,Government / WARN filing,https://www.warntracker.com/company/fresh-venture-foods
+154,137,12,1,20260505,Day,May 2026,500,4500,0.111,1,0,3 - 10-25%,3 - 500-999,1,News media,https://www.globenewswire.com/news-release/2026/05/05/3288271/0/en/freshworks-reports-first-quarter-2026-results.html
+155,138,11,2,20260924,Day,Sep 2026,214,214,1.0,0,1,5 - Shutdown,2 - 100-499,1,News media,https://www.yahoo.com/news/articles/longtime-mass-discount-store-laying-141746709.html
+156,139,12,2,20260402,Day,Apr 2026,270,2700,0.1,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.computerweekly.com/news/366641092/Post-Office-scandal-supplier-Fujitsu-to-cut-nearly-10-of-UK-workforce
+157,140,4,2,20260828,Day,Aug 2026,180,2440,0.07400000000000001,0,0,2 - 5-10%,2 - 100-499,1,News media,https://www.wftv.com/news/local/full-sail-university-eliminates-180-positions-organizational-realignment/7PCAAXWJPZF6HHS4X3IU34ZT74/
+158,141,8,4,20260911,Day,Sep 2026,650,66841,0.01,0,0,1 - <5%,3 - 500-999,1,News media,https://www.biospace.com/business/gsk-lays-off-650-staffers-amid-closure-of-german-vaccine-manufacturing-site
+159,142,1,2,20260131,Day,Jan 2026,220,154000,0.001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.actionnews5.com/2026/04/03/220-workers-were-laid-off-amid-gxo-closure-southaven/
+160,143,12,1,20260515,Day,May 2026,150,600,0.25,1,0,4 - 25-99%,2 - 100-499,1,News media,https://frontofficesports.com/gambling-layoffs-pile-up-as-sports-betting-industry-recalibrates/
+161,144,3,1,20260205,Day,Feb 2026,200,800,0.25,1,0,4 - 25-99%,2 - 100-499,1,News media,https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30
+162,145,8,2,20260701,Day,Jul 2026,103,13000,0.008,0,0,1 - <5%,2 - 100-499,1,News media,https://www.fiercebiotech.com/biotech/genentech-sees-103-roles-impacted-gred-rethink-pens-490m-breast-cancer-collab
+163,146,12,4,20260808,Day,Aug 2026,410,117000,0.004,0,0,1 - <5%,2 - 100-499,1,News media,https://patch.com/virginia/arlington-va/174-gdit-pentagon-workers-could-face-layoffs-august
+164,147,1,4,20260105,Day,Jan 2026,1140,163000,0.006999999999999999,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.recruitingnewsnetwork.com/posts/major-companies-entering-2026-with-mass-layoffs-already-underway
+165,147,1,2,20260511,Day,May 2026,600,163000,0.004,0,0,1 - <5%,3 - 500-999,2,News media,https://www.cnbc.com/2026/05/11/gm-layoffs.html
+166,148,9,4,20260902,Day,Sep 2026,120,30000,0.004,0,0,1 - <5%,2 - 100-499,1,News media,https://www.fox13seattle.com/news/georgia-pacific-gypsum-llc-more-than-100-tacoma-workers-laid-off
+167,149,8,5,20260506,Day,May 2026,192,209,0.919,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.fiercebiotech.com/biotech/after-arcellx-buyout-close-gilead-trims-108-jobs-car-t-biotechs-redwood-city-outpost
+168,150,12,2,20260601,Day,Jun 2026,361,2580,0.14,0,0,3 - 10-25%,2 - 100-499,1,Company filing,https://ir.gitlab.com/news/news-details/2026/GitLab-Reports-First-Quarter-Fiscal-Year-2027-Financial-Results/default.aspx
+169,151,11,2,20260507,Day,May 2026,98,98,1.0,0,1,5 - Shutdown,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/Jobs_and_Training/Layoff_Services_WARN/
+170,152,12,1,20260302,Day,Mar 2026,20,100,0.2,1,0,3 - 10-25%,1 - <100,1,News media,https://en.globes.co.il/en/article-gloat-lays-off-20-of-workforce-1001536470
+171,153,2,2,20260315,Day,Mar 2026,750,5000,0.15,0,0,3 - 10-25%,3 - 500-999,1,News media,https://www.thespanisheye.com/2026/03/15/glovo-to-lay-off-750-riders-in-spain-and-cut-services-in-63-towns-most-of-andalucia-affected/
+172,154,8,2,20260903,Day,Sep 2026,103,850,0.121,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.beckershospitalreview.com/finance/gohealth-to-shut-down-majority-of-operations-cut-103-jobs/
+173,155,12,1,20260711,Day,Jul 2026,120,600,0.2,1,0,3 - 10-25%,2 - 100-499,1,News media,https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/
+174,156,2,2,20260407,Day,Apr 2026,145,631,0.23,0,0,3 - 10-25%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001500435&type=8-K&dateb=&owner=include&count=10
+175,157,6,3,20260319,Day,Mar 2026,1500,45000,0.033,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://wkzo.com/2026/03/19/goldman-sachs-to-make-performance-based-job-cuts-in-april-source-says/
+176,158,9,3,20260513,Day,May 2026,1700,71000,0.024,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.manufacturingdive.com/news/goodyear-talks-to-close-fayetteville-north-carolina-tire-factory-usw-1700-workers/820242/
+177,159,12,2,20260805,Day,Aug 2026,52,198933,0.0,0,0,1 - <5%,1 - <100,1,News media,https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/
+178,160,8,2,20260317,Day,Mar 2026,77,160,0.48100000000000004,0,0,4 - 25-99%,1 - <100,1,News media,https://www.biospace.com/business/gossamer-nearly-halves-workforce-in-savings-push-after-late-stage-hypertension-fail
+179,161,9,2,20260930,Day,Sep 2026,740,33000,0.022000000000000002,0,0,1 - <5%,3 - 500-999,1,News media,https://ca.finance.yahoo.com/news/greggs-shut-four-factories-cut-085919868.html
+180,162,1,3,20260504,Day,May 2026,700,14000,0.05,0,0,2 - 5-10%,3 - 500-999,1,News media,https://www.autonews.com/retail/an-group-1-cuts-us-jobs-0504/
+181,163,12,1,20260521,Day,May 2026,400,1700,0.235,1,0,3 - 10-25%,2 - 100-499,1,News media,https://www.investing.com/news/stock-market-news/groupon-stock-jumps-5-on-job-cuts-raised-guidance-93CH-4709657
+182,164,11,2,20260807,Day,Aug 2026,250,94744,0.003,0,0,1 - <5%,2 - 100-499,1,News media,https://www.theindustry.fashion/hm-restructuring-uk-office-consultation-2026/
+183,165,6,2,20260805,Day,Aug 2026,200,4600,0.043,0,0,1 - <5%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/12659/000001265926000026/hrb-20260630.htm
+184,166,6,1,20260712,Day,Jul 2026,3343,214521,0.016,1,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.business-standard.com/industry/news/hdfc-bank-s-workforce-drops-by-over-3-300-amid-push-to-automate-operations-126071200343_1.html
+185,167,6,1,20260319,Day,Mar 2026,20000,210000,0.095,1,0,2 - 5-10%,5 - 5K+,1,News media,https://www.bloomberg.com/news/newsletters/2026-03-19/hsbc-weighs-cutting-20k-jobs-as-ai-takes-centre-stage
+186,168,9,2,20260819,Day,Aug 2026,73,1700,0.043,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN
+187,169,6,5,20260930,Day,Sep 2026,52,3627,0.013999999999999999,0,0,1 - <5%,1 - <100,1,News media,https://www.clickorlando.com/news/local/2026/10/02/mass-layoffs-reported-at-two-orlando-companies/
+188,170,1,2,20260324,Day,Mar 2026,100,5500,0.018000000000000002,0,0,1 - <5%,2 - 100-499,1,News media,https://www.wpr.org/news/harley-davidson-reduction-global-workforce
+189,171,8,2,20260916,Day,Sep 2026,214,10350,0.021,0,0,1 - <5%,2 - 100-499,1,News media,https://www.wftv.com/news/local/health-first-announces-layoffs-ends-some-local-programs/X4FGTXAHYFHM5KHZNE7NIDVMAI/
+190,172,2,4,20260212,Day,Feb 2026,6000,87000,0.069,0,0,2 - 5-10%,5 - 5K+,1,News media,https://www.livenowfox.com/news/2026-layoffs-list-companies-cutting-jobs-year
+191,173,2,2,20260928,Day,Sep 2026,67,150,0.447,0,0,4 - 25-99%,1 - <100,1,News media,https://www.kwtx.com/2026/09/30/hello-bello-facility-waco-close-laying-off-nearly-70-employees/
+192,174,2,2,20260818,Day,Aug 2026,374,18000,0.021,0,0,1 - <5%,2 - 100-499,1,News media,https://njbiz.com/hellofresh-swedesboro-distribution-center-closure/
+193,175,11,2,20260101,Month,Jan 2026,800,475000,0.002,0,0,1 - <5%,3 - 500-999,1,News media,https://www.newsnationnow.com/business/major-employers-job-cuts-2026/
+194,176,8,3,20260129,Day,Jan 2026,242,4840,0.05,0,0,2 - 5-10%,2 - 100-499,1,News media,https://njbiz.com/horizon-bcbs-nj-layoffs-242-jobs/
+195,177,4,3,20260810,Day,Aug 2026,600,3750,0.16,0,0,3 - 10-25%,3 - 500-999,1,News media,https://hbcugameday.com/2026/08/07/howard-university-workforce-buyouts-highlight-new-financial-pressures-facing-hbcus/
+196,178,12,1,20261006,Day,Oct 2026,660,8882,0.07400000000000001,1,0,2 - 5-10%,3 - 500-999,1,News media,https://www.nbcboston.com/boston-business-journal/cambridge-based-hubspot-cuts-660-jobs-in-strategic-shift/4026561/
+197,179,10,5,20260324,Day,Mar 2026,700,7000,0.1,0,0,3 - 10-25%,3 - 500-999,1,News media,https://sbcamericas.com/2026/03/24/reports-igt-laying-off-700-employees-worldwide-to-streamline-business/
+198,180,11,2,20260319,Day,Mar 2026,800,166000,0.005,0,0,1 - <5%,3 - 500-999,1,News media,https://www.retailgazette.co.uk/blog/2026/03/ikea-ingka-cut-roles-too-complex/
+199,181,1,2,20260313,Day,Mar 2026,996,10000,0.1,0,0,3 - 10-25%,3 - 500-999,1,News media,https://www.thespanisheye.com/2026/03/13/iberia-to-lay-off-almost-1000-workers-figure-is-nearly-10-of-its-workforce/
+200,182,2,3,20260810,Day,Aug 2026,2000,25800,0.078,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://qz.com/imperial-brands-layoffs-us-europe-itg-brands-081026
+201,183,12,1,20260515,Day,May 2026,340,2600,0.131,1,0,3 - 10-25%,2 - 100-499,1,News media,https://entrackr.com/news/innovaccer-lays-off-340-employees-amid-shift-to-ai-native-operations-11838352
+202,184,9,2,20260821,Day,Aug 2026,65,1007,0.065,0,0,2 - 5-10%,1 - <100,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/764401/000143774926028729/ex_1007728.htm
+203,185,12,2,20260101,Month,Jan 2026,15000,110000,0.136,0,0,3 - 10-25%,5 - 5K+,1,News media,https://www.recruitingnewsnetwork.com/posts/major-companies-entering-2026-with-mass-layoffs-already-underway
+204,185,12,2,20260918,Day,Sep 2026,52,85100,0.001,0,0,1 - <5%,1 - <100,2,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+205,186,11,2,20260518,Day,May 2026,850,27700,0.031,0,0,1 - <5%,3 - 500-999,1,News media,https://www.ndtv.com/world-news/ikea-layoff-grown-bit-too-complex-ikea-to-cut-850-jobs-at-parent-company-11512530
+206,187,1,2,20260730,Day,Jul 2026,1341,15000,0.08900000000000001,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://www.springfieldnewssun.com/local/international-motors-files-warn-notice-on-layoffs-of-1-341-springfield-workers/article_d89d6d09-1c2c-5529-b045-3513cf8b7e7a.html
+207,188,3,1,20260520,Day,May 2026,3000,18200,0.165,1,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://finance.yahoo.com/sectors/technology/articles/exclusive-intuit-cut-17-global-130424207.html
+208,189,9,2,20260612,Day,Jun 2026,1485,280000,0.005,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.wfmz.com/news/area/southeastern-pa/upper-montgomery-county/meatpacking-company-to-close-montgomery-county-plant-1-500-jobs-at-stake/article_1d0d2b72-bf34-4dc5-becd-e6df64983ea1.html
+209,190,6,2,20260201,Month,Feb 2026,121,300000,0.0,0,0,1 - <5%,2 - 100-499,1,News media,https://citywire.com/pro-buyer/news/jp-morgans-first-round-of-layoffs-to-hit-new-jersey-by-may/a2460400
+210,190,6,2,20260821,Day,Aug 2026,63,300000,0.0,0,0,1 - <5%,1 - <100,2,News media,https://finance.yahoo.com/markets/stocks/articles/major-n-j-financial-services-130115839.html
+211,191,9,2,20260820,Day,Aug 2026,382,135000,0.003,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN
+212,192,1,3,20260905,Day,Sep 2026,4000,40000,0.1,0,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://www.coventrytelegraph.net/news/coventry-news/jaguar-land-rover-cut-4000-34573511
+213,193,9,2,20260908,Day,Sep 2026,61,64000,0.001,0,0,1 - <5%,1 - <100,1,News media,https://www.inquirer.com/business/jerith-manufacturing-fence-philadelphia-closing-ameristar-20260908.html
+214,194,8,2,20260827,Day,Aug 2026,78,6000,0.013000000000000001,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+215,195,4,3,20260625,Day,Jun 2026,110,28000,0.004,0,0,1 - <5%,2 - 100-499,1,News media,https://www.baltimoresun.com/2026/06/25/johns-hopkins-university-layoffs/
+216,196,8,2,20260527,Day,May 2026,56,138200,0.0,0,0,1 - <5%,1 - <100,1,News media,https://www.fiercepharma.com/pharma/jj-separates-its-orthopedics-business-it-lays-56-new-jersey
+217,196,8,2,20260921,Day,Sep 2026,87,138200,0.001,0,0,1 - <5%,1 - <100,2,Government / WARN filing,https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf
+218,197,6,5,20260929,Day,Sep 2026,300,1300,0.231,0,0,3 - 10-25%,2 - 100-499,1,News media,https://greatdriffieldradio.co.uk/business/pensions-firm-just-axes-quarter-of-workforce-months-after-takeover/
+219,198,6,2,20260716,Day,Jul 2026,150,3400,0.044000000000000004,0,0,1 - <5%,2 - 100-499,1,News media,https://abovethelaw.com/2026/07/layoff-alert-kl-gates-announces-significant-cuts/
+220,199,6,2,20260824,Day,Aug 2026,387,10000,0.039,0,0,1 - <5%,2 - 100-499,1,News media,https://www.abc.net.au/news/2026-08-24/kpmg-restructure-job-cuts-after-whistleblower-audit-leak-scandal/107070260
+221,200,6,3,20260327,Day,Mar 2026,600,7100,0.085,0,0,2 - 5-10%,3 - 500-999,1,News media,"https://www.tradingview.com/news/reuters.com,2026:newsml_L6N40F18I:0-kpmg-plans-to-cut-hundreds-of-jobs-in-auditing-division-bloomberg-news-reports/"
+222,200,6,4,20260915,Day,Sep 2026,200,15800,0.013000000000000001,0,0,1 - <5%,2 - 100-499,2,News media,https://www.personneltoday.com/hr/kpmg-to-cut-200-jobs-from-its-uk-advisory-business/
+223,201,6,3,20260423,Day,Apr 2026,100,1000,0.1,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.accountingtoday.com/news/kpmg-lays-off-10-of-us-audit-partners
+224,202,8,2,20260921,Day,Sep 2026,147,225854,0.001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.beckershospitalreview.com/finance/kaiser-permanente-to-lay-off-147-workers-across-california/
+225,203,9,2,20260904,Day,Sep 2026,112,24000,0.005,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+226,204,1,2,20260909,Day,Sep 2026,52,7500,0.006999999999999999,0,0,1 - <5%,1 - <100,1,News media,https://www.wfmz.com/business/dozens-of-jobs-impacted-by-northampton-county-warehouse-closure-warn-notice-says/article_d933eeca-8699-49f1-9ef6-b36ed1e73a34.html
+227,205,11,2,20261002,Day,Oct 2026,122,280000,0.0,0,0,1 - <5%,2 - 100-499,1,News media,https://nj1015.com/october-2026-nj-layoffs/
+228,206,12,2,20260506,Day,May 2026,10000,73000,0.13699999999999998,0,0,3 - 10-25%,5 - 5K+,1,News media,https://www.kyndryl.com/us/en/about-us/news/2026/05/annual-and-fourth-quarter-2026-earnings-results
+229,207,8,3,20260313,Day,Mar 2026,225,7500,0.03,0,0,1 - <5%,2 - 100-499,1,News media,https://www.beckerspayer.com/payer/medicaid/california-payer-laying-off-3-of-workforce-amid-medicaid-cuts/
+230,208,7,2,20260421,Day,Apr 2026,284,600,0.473,0,0,4 - 25-99%,2 - 100-499,1,News media,https://abc7.com/post/lahsa-announces-plans-lay-off-300-employees-amid-shift-funding/18935005/
+231,209,4,3,20260521,Day,May 2026,657,60000,0.011000000000000001,0,0,1 - <5%,3 - 500-999,1,News media,https://laist.com/brief/news/education/lausd-reduction-in-force-vote-may-2026-budget-preview
+232,210,10,2,20260826,Day,Aug 2026,200,300,0.667,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.washingtontimes.com/news/2026/aug/26/liv-golf-begins-laying-employees-downsizing-restructure-without-saudi/
+233,211,9,2,20260707,Day,Jul 2026,212,500,0.424,0,0,4 - 25-99%,2 - 100-499,1,Government / WARN filing,https://californiawarn.com/companies/leemah-electronics
+234,212,6,2,20260923,Day,Sep 2026,1000,10500,0.095,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://uk.finance.yahoo.com/news/legal-general-cut-around-1-121223777.html
+235,213,12,3,20260713,Day,Jul 2026,305,47000,0.006,0,0,1 - <5%,2 - 100-499,1,News media,https://www.washingtontechnology.com/companies/2026/07/leidos-layoff-notices-hit-305-people-non-customer-roles/414729/
+236,213,12,2,20260928,Day,Sep 2026,84,47000,0.002,0,0,1 - <5%,1 - <100,2,News media,https://patch.com/virginia/ashburn/northern-virginia-tech-company-anticipates-major-layoffs-ashburn
+237,214,11,2,20260708,Day,Jul 2026,303,19000,0.016,0,0,1 - <5%,2 - 100-499,1,News media,https://www.supplychaindive.com/news/levi-strauss-to-close-kentucky-warehouse-after-yearlong-delay/824451/
+238,215,12,1,20260527,Day,May 2026,75,440,0.17,1,0,3 - 10-25%,1 - <100,1,News media,https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg
+239,216,12,1,20260513,Day,May 2026,875,17500,0.05,1,0,2 - 5-10%,3 - 500-999,1,News media,https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/
+240,217,10,3,20260527,Day,May 2026,20,300,0.067,0,0,2 - 5-10%,1 - <100,1,News media,https://www.espn.com/nba/story/_/id/48894046/lakers-lay-more-dozen-business-side-employees-amid-reorganization
+241,218,9,4,20260901,Day,Sep 2026,150,4300,0.035,0,0,1 - <5%,2 - 100-499,1,News media,https://www.ktre.com/2026/09/07/louisiana-pacific-lay-off-150-workers-jasper-plant-next-month/
+242,219,1,3,20260421,Day,Apr 2026,319,6800,0.047,0,0,1 - <5%,2 - 100-499,1,News media,https://www.kron4.com/news/technology-ai/hundreds-to-be-laid-off-from-bay-area-based-luxury-ev-maker/
+243,219,1,4,20260622,Day,Jun 2026,1500,9000,0.16699999999999998,0,0,3 - 10-25%,4 - 1K-4.9K,2,News media,https://www.cnbc.com/2026/06/22/lucid-layoffs-evs.html
+244,220,3,1,20260402,Day,Apr 2026,40,266,0.15,1,0,3 - 10-25%,1 - <100,1,News media,https://unchainedcrypto.com/mara-holdings-cuts-15-of-staff-as-bitcoin-miners-sell-reserves-and-retrench/
+245,221,11,2,20260114,Day,Jan 2026,1050,90000,0.012,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.retaildive.com/news/macys-layoffs-cheshire-connecticut-fulfillment-center/809837/
+246,222,12,2,20260720,Day,Jul 2026,193,600,0.322,0,0,4 - 25-99%,2 - 100-499,1,News media,https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/
+247,223,8,2,20260728,Day,Jul 2026,83,22000,0.004,0,0,1 - <5%,1 - <100,1,News media,https://www.pressherald.com/2026/07/28/mainehealth-to-cut-83-positions-in-it-analytics/
+248,224,12,2,20260601,Day,Jun 2026,260,4370,0.059000000000000004,0,0,2 - 5-10%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/0001056696/000119312526251382/manh-20260601.htm
+249,225,11,2,20260910,Day,Sep 2026,55,3000,0.018000000000000002,0,0,1 - <5%,1 - <100,1,News media,https://www.cleveland19.com/2026/09/11/marcs-close-parma-facility-cut-55-jobs/
+250,226,2,2,20260420,Day,Apr 2026,150,170000,0.001,0,0,1 - <5%,2 - 100-499,1,News media,https://wizs.com/mars-petcare-plant-in-henderson-to-close-in-july/
+251,227,9,5,20260930,Day,Sep 2026,390,13000,0.03,0,0,1 - <5%,2 - 100-499,1,News media,https://www.neusenews.com/index/2026/9/30/masterbrand-changes-to-affect-390-workers-at-kinston-facility
+252,228,6,3,20260101,Month,Jan 2026,1400,33000,0.042,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://finance.yahoo.com/news/layoffs-surge-2026-10-major-174540901.html
+253,229,10,2,20260901,Day,Sep 2026,238,3500,0.068,0,0,2 - 5-10%,2 - 100-499,1,News media,https://www.casino.org/news/washington-states-riverside-great-american-casinos-to-close-as-maverick-gaming-cuts-238-more-jobs/
+254,229,10,2,20260928,Day,Sep 2026,850,3500,0.243,0,0,3 - 10-25%,3 - 500-999,2,News media,https://www.casino.org/news/maverick-gamings-washington-casino-empire-keeps-shrinking-as-eight-more-face-closure/
+255,230,10,3,20260910,Day,Sep 2026,90,2200,0.040999999999999995,0,0,1 - <5%,1 - <100,1,News media,https://www.poynter.org/business-work/2026/mcclatchy-media-newspapers-layoffs/
+256,231,8,5,20260304,Day,Mar 2026,125,2000,0.062,0,0,2 - 5-10%,2 - 100-499,1,News media,https://whatnow.com/san-diego/local-news/37-year-old-pharmacy-benefits-manager-cuts-125-jobs-in-san-diego/
+257,232,1,3,20260507,Day,May 2026,72,3000,0.024,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://www.warntracker.com/company/mercedes-benz-research-development-north-america
+258,233,9,2,20260806,Day,Aug 2026,350,3545,0.099,0,0,2 - 5-10%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1333274/000119312526338270/merc-ex99_1.htm
+259,234,8,4,20260227,Day,Feb 2026,147,67000,0.002,0,0,1 - <5%,2 - 100-499,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+260,234,8,3,20260908,Day,Sep 2026,54,75000,0.001,0,0,1 - <5%,1 - <100,2,News media,https://njbiz.com/merck-54-jobs-rahway-nj-layoffs/
+261,235,12,1,20260316,Day,Mar 2026,16000,79000,0.203,1,0,3 - 10-25%,5 - 5K+,1,News media,https://www.cnbc.com/2026/03/16/meta-ai-costs-mass-layoffs-20percent-up-premarket.html
+262,236,12,1,20260707,Day,Jul 2026,170,1350,0.126,1,0,3 - 10-25%,2 - 100-499,1,News media,https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/
+263,237,12,1,20260423,Day,Apr 2026,8750,125000,0.07,1,0,2 - 5-10%,5 - 5K+,1,News media,https://www.cnbc.com/2026/04/23/microsoft-plans-first-voluntary-retirement-program-for-us-employees.html
+264,237,12,3,20260706,Day,Jul 2026,4664,228000,0.02,0,0,1 - <5%,4 - 1K-4.9K,2,News media,https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html
+265,237,12,2,20260922,Day,Sep 2026,268,228000,0.001,0,0,1 - <5%,2 - 100-499,3,News media,https://www.videogameschronicle.com/news/xbox-officially-announces-more-layoffs-and-widespread-changes-to-its-entire-studio-structure/
+266,238,10,1,20260528,Day,May 2026,60,500,0.12,1,0,3 - 10-25%,1 - <100,1,News media,https://www.calcalistech.com/ctechnews/article/kk215pdq7
+267,239,2,2,20260818,Day,Aug 2026,90,4000,0.022000000000000002,0,0,1 - <5%,1 - <100,1,News media,https://krdo.com/news/2026/08/18/mission-foods-closes-pueblo-tortilla-plant-laying-off-90-workers/
+268,240,8,2,20260405,Day,Apr 2026,156,17000,0.009000000000000001,0,0,1 - <5%,2 - 100-499,1,News media,https://labusinessjournal.com/healthcare/long-beach-based-molina-healthcare-lay-nearly-170/
+269,241,9,4,20260908,Day,Sep 2026,90,450,0.2,0,0,3 - 10-25%,1 - <100,1,News media,https://timberharvesting.com/neiman-closing-mill-in-western-colorado/
+270,242,6,3,20260307,Day,Mar 2026,2500,82000,0.03,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.livenowfox.com/news/2026-layoffs-list-companies-cutting-jobs-year
+271,243,10,2,20260902,Day,Sep 2026,111,111,1.0,0,1,5 - Shutdown,2 - 100-499,1,News media,https://shensentinel.com/news/mountain-valley-closure-displaces-111-workers-warn-notice-says/
+272,244,8,3,20260910,Day,Sep 2026,138,28000,0.005,0,0,1 - <5%,2 - 100-499,1,News media,https://www.kiro7.com/news/local/multicare-health-system-plans-layoff-138-employees-close-6-locations/FEY7MP4UD5DM5HWM3SM6GHL7PQ/
+273,245,12,2,20260708,Day,Jul 2026,75,500,0.15,0,0,3 - 10-25%,1 - <100,1,News media,https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761
+274,246,10,2,20260702,Day,Jul 2026,24,4000,0.006,0,0,1 - <5%,1 - <100,1,News media,https://awfulannouncing.com/nba/institutes-layoffs-ahead-local-media-restructuring.html
+275,247,6,5,20260629,Day,Jun 2026,600,25000,0.024,0,0,1 - <5%,3 - 500-999,1,News media,https://www.theguardian.com/business/2026/jun/29/nationwide-cut-600-jobs-first-redundancies-takeover-virgin-money
+276,248,2,2,20260707,Day,Jul 2026,345,170000,0.002,0,0,1 - <5%,2 - 100-499,1,News media,https://www.supplychaindive.com/news/mars-to-close-natures-bakery-plant-lay-off-345-workers/824855/
+277,249,2,1,20260227,Day,Feb 2026,16000,270000,0.059000000000000004,1,0,2 - 5-10%,5 - 5K+,1,News media,https://www.grocerygazette.co.uk/2026/03/03/nestle-job-cuts-south-africa/
+278,250,10,2,20260813,Day,Aug 2026,59,16000,0.004,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN
+279,251,11,1,20260126,Day,Jan 2026,775,76000,0.01,1,0,1 - <5%,3 - 500-999,1,News media,https://www.cnbc.com/2026/01/26/nike-to-lay-off-775-employees-at-us-distribution-centers.html
+280,251,11,2,20260423,Day,Apr 2026,1400,76000,0.018000000000000002,0,0,1 - <5%,4 - 1K-4.9K,2,News media,https://www.cnbc.com/2026/04/23/nike-job-cuts-layoffs.html
+281,252,9,2,20260710,Day,Jul 2026,282,5578,0.051,0,0,2 - 5-10%,2 - 100-499,1,News media,https://spectrumlocalnews.com/nc/charlotte/news/2026/07/10/nippon-electric-glass-set-to-lay-off-workers-in-n-c-
+282,253,1,4,20260505,Day,May 2026,900,9300,0.09699999999999999,0,0,2 - 5-10%,3 - 500-999,1,News media,https://www.autonews.com/nissan/ane-nissan-europe-job-cuts-0505/
+283,254,13,2,20260327,Day,Mar 2026,14000,74100,0.18899999999999997,0,0,3 - 10-25%,5 - 5K+,1,News media,https://www.indiaherald.com/Breaking/Read/994885580/-Nokia-Layoffs-Tech-Giant-Plans-to-Cut-Up-to-Jobs-
+284,255,11,2,20260807,Day,Aug 2026,101,55000,0.002,0,0,1 - <5%,2 - 100-499,1,News media,https://finance.yahoo.com/small-business/articles/125-old-mall-retail-anchor-181700285.html
+285,256,2,2,20260714,Day,Jul 2026,200,600,0.33299999999999996,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.woodtv.com/news/grand-rapids/fire-at-grand-rapids-warehouse-prompts-mass-layoff-of-200-workers/
+286,257,8,4,20260707,Day,Jul 2026,322,76000,0.004,0,0,1 - <5%,2 - 100-499,1,News media,https://www.fiercepharma.com/pharma/novartis-dismisses-322-more-its-us-headquarters-nj
+287,257,8,2,20260902,Day,Sep 2026,130,76000,0.002,0,0,1 - <5%,2 - 100-499,2,News media,https://www.novartis.com/ch-de/news/media-releases/novartis-informiert-ueber-den-geplanten-uebergang-von-aktivitaeten-im-kleinbasel
+288,258,8,2,20260921,Day,Sep 2026,4000,67000,0.06,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://cphpost.dk/2026-09-21/business-education/career/novo-has-cut-4000-more-than-first-announced/
+289,258,8,2,20260930,Day,Sep 2026,108,67000,0.002,0,0,1 - <5%,2 - 100-499,2,News media,https://njbiz.com/novo-108-job-cuts-nj-headquarters/
+290,259,12,2,20260804,Day,Aug 2026,390,7800,0.05,0,0,2 - 5-10%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1618732/000119312526331661/ntnx-20260804.htm
+291,260,12,2,20260709,Day,Jul 2026,65,260,0.25,0,0,4 - 25-99%,1 - <100,1,News media,https://www.gematsu.com/2026/07/bloomberg-obsidian-entertainment-cancels-avowed-sequel-starts-work-on-fallout-title-amid-layoffs
+292,261,10,5,20260910,Day,Sep 2026,15000,120000,0.125,0,0,3 - 10-25%,5 - 5K+,1,News media,https://www.mediapost.com/publications/article/417911/omnicom-set-to-cut-15000-jobs.html
+293,262,7,3,20260703,Day,Jul 2026,25,25,1.0,0,1,5 - Shutdown,1 - <100,1,News media,https://montrealgazette.com/news/guy-laliberte-one-drop-foundation-layoffs-operations/
+294,263,12,1,20260610,Day,Jun 2026,250,1400,0.179,1,0,3 - 10-25%,2 - 100-499,1,News media,https://x.com/nejatian/status/2064734707497996543
+295,264,12,1,20260310,Day,Mar 2026,30000,162000,0.185,1,0,3 - 10-25%,5 - 5K+,1,News media,https://thenextweb.com/news/oracle-layoffs-march-2026
+296,264,12,2,20260914,Day,Sep 2026,441,141000,0.003,0,0,1 - <5%,2 - 100-499,2,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+297,265,8,2,20260916,Day,Sep 2026,419,14000,0.03,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://virginiaworks.gov/warn-notice/40177/
+298,266,9,2,20260921,Day,Sep 2026,52,43500,0.001,0,0,1 - <5%,1 - <100,1,News media,https://finance.yahoo.com/small-business/articles/alabama-paint-manufacturing-plant-close-085526908.html
+299,267,10,3,20260423,Day,Apr 2026,80,2000,0.04,0,0,1 - <5%,1 - <100,1,News media,https://www.golfdigest.com/story/pga-tour-announces-wide-spread-layoffs-eliminates-nearly-80-positions-2026
+300,268,1,4,20260902,Day,Sep 2026,150,1700,0.08800000000000001,0,0,2 - 5-10%,2 - 100-499,1,News media,https://www.insideindianabusiness.com/articles/pmg-indiana-to-close-columbus-manufacturing-plant-lay-off-150-workers
+301,269,6,5,20260420,Day,Apr 2026,777,2200,0.353,0,0,4 - 25-99%,3 - 500-999,1,News media,https://www.denverpost.com/2026/04/20/first-bank-layoffs-lakewood-colorado-jobs/
+302,270,9,2,20261002,Day,Oct 2026,91,16800,0.005,0,0,1 - <5%,1 - <100,1,News media,https://www.daytondailynews.com/local/middletown-s-packaging-corp-of-america-to-close-lay-off-91-employees/article_5b02605d-c48f-5f26-ad35-5ed3bcf174d7.html
+303,271,12,5,20260217,Day,Feb 2026,500,16000,0.031,0,0,1 - <5%,3 - 500-999,1,News media,https://www.calcalistech.com/ctechnews/article/qhfypdgbs
+304,272,12,2,20260723,Day,Jul 2026,93,465,0.2,0,0,3 - 10-25%,1 - <100,1,News media,https://www.404media.co/patreon-lays-off-20-percent-of-its-workforce/
+305,273,3,1,20260505,Day,May 2026,4760,23800,0.2,1,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/
+306,273,3,2,20260903,Day,Sep 2026,251,23800,0.011000000000000001,0,0,1 - <5%,2 - 100-499,2,News media,https://finance.yahoo.com/technology/articles/paypal-plans-lay-off-hundreds-220113558.html
+307,274,8,2,20260917,Day,Sep 2026,150,16000,0.009000000000000001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.columbian.com/news/2026/sep/18/peacehealth-to-lay-off-150-employees-statewide-including-119-in-clark-county/
+308,275,2,3,20260101,Month,Jan 2026,286,2600,0.11,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.cheapism.com/2026-layoffs-major-american-companies/
+309,276,12,1,20260407,Day,Apr 2026,90,850,0.106,1,0,3 - 10-25%,1 - <100,1,News media,https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs
+310,277,10,2,20260514,Day,May 2026,75,25000,0.003,0,0,1 - <5%,1 - <100,1,News media,https://next.io/news/people/sources-penn-laying-off-75-employees/
+311,278,12,1,20260817,Day,Aug 2026,60,470,0.128,1,0,3 - 10-25%,1 - <100,1,News media,https://www.calcalistech.com/ctechnews/article/cri3dnoqo
+312,279,1,5,20260925,Day,Sep 2026,169,8000,0.021,0,0,1 - <5%,2 - 100-499,1,News media,https://www.wfmz.com/news/area/southeastern-pa/upper-montgomery-county/mass-layoff-coming-to-pep-boys-montgomery-county-headquarters/article_53033628-14ff-4c20-94b4-39f5a5a3431c.html
+313,280,2,2,20260915,Day,Sep 2026,143,306000,0.0,0,0,1 - <5%,2 - 100-499,1,News media,https://www.fooddive.com/news/pepsico-layoffs-maryland-bottling-plant-manufacturing-operations/830548/
+314,281,9,2,20260914,Day,Sep 2026,50,1500,0.033,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://dam.assets.ohio.gov/image/upload/jfs.ohio.gov/warn/WARN%202026/Perstorp_Polyols_Inc.pdf
+315,282,10,1,20260127,Day,Jan 2026,700,4700,0.149,1,0,3 - 10-25%,3 - 500-999,1,News media,https://finance.yahoo.com/news/layoffs-surge-2026-10-major-174540901.html
+316,283,3,2,20260116,Day,Jan 2026,60,260,0.231,0,0,3 - 10-25%,1 - <100,1,News media,https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition
+317,284,1,2,20260624,Day,Jun 2026,3900,42000,0.09300000000000001,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://www.cbtnews.com/porsche-confirms-3900-job-cuts/
+318,284,1,2,20260727,Day,Jul 2026,5000,42000,0.11900000000000001,0,0,3 - 10-25%,5 - 5K+,2,News media,https://www.cnbc.com/2026/07/27/porsche-ramps-up-job-cuts-to-9000-by-2035.html
+319,285,11,3,20260805,Day,Aug 2026,25,7800,0.003,0,0,1 - <5%,1 - <100,1,News media,https://chicago.suntimes.com/work/2026/08/05/portillos-laying-off-staff-oak-brook-headquarters
+320,286,10,3,20260519,Day,May 2026,70,250,0.28,0,0,4 - 25-99%,1 - <100,1,News media,https://www.hoopsrumors.com/2026/05/blazers-reportedly-layoff-about-70-business-employees.html
+321,287,1,2,20260818,Day,Aug 2026,164,560,0.293,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.bizjournals.com/sanantonio/news/2026/08/18/mail-operator-layoffs.html
+322,288,1,2,20260828,Day,Aug 2026,189,189,1.0,0,1,5 - Shutdown,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+323,289,2,2,20260722,Day,Jul 2026,118,7000,0.017,0,0,1 - <5%,2 - 100-499,1,News media,https://finance.yahoo.com/small-business/articles/prairie-farms-dairy-close-two-154725503.html
+324,290,2,3,,Multi-year plan,2025-27 program,7000,108000,0.065,0,0,2 - 5-10%,5 - 5K+,1,News media,https://www.cnbc.com/2025/06/05/procter-gamble-job-cuts-restructuring.html
+325,291,6,2,20260722,Day,Jul 2026,89,36824,0.002,0,0,1 - <5%,1 - <100,1,News media,https://news.ambest.com/newscontent.aspx?AltSrc=104&RefNum=275837
+326,291,6,2,20260930,Day,Sep 2026,125,36824,0.003,0,0,1 - <5%,2 - 100-499,2,News media,https://finance.yahoo.com/economy/articles/prudential-insurance-plans-125-more-163009489.html
+327,292,12,5,20260902,Day,Sep 2026,117,6454,0.018000000000000002,0,0,1 - <5%,2 - 100-499,1,News media,https://www.geekwire.com/2026/qualtrics-cut-117-jobs-tied-to-seattle-headquarters-new-filing-shows/
+328,293,7,4,20261001,Day,Oct 2026,200,3400,0.059000000000000004,0,0,2 - 5-10%,2 - 100-499,1,News media,https://www.wral.com/business/rti-to-cut-200-more-jobs-as-it-looks-to-streamline-operations-october-2026/
+329,294,9,4,20260827,Day,Aug 2026,425,2500,0.17,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.newsweek.com/canadian-company-announces-mass-layoffs-over-us-tariff-nuclear-bomb-donald-trump-ryam-12380188
+330,295,12,1,20260610,Day,Jun 2026,750,5000,0.15,1,0,3 - 10-25%,3 - 500-999,1,News media,https://sanantonioreport.org/rackspace-750-workers-pivots-infrastructure-ai-san-antonio/
+331,296,11,2,20260827,Day,Aug 2026,51,11500,0.004,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+332,297,12,2,20260810,Day,Aug 2026,300,2600,0.115,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.bostonglobe.com/2026/08/10/business/rapid7-layoffs/
+333,298,3,1,20260528,Day,May 2026,100,700,0.14300000000000002,1,0,3 - 10-25%,2 - 100-499,1,News media,https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl
+334,299,10,1,20260916,Day,Sep 2026,220,3100,0.071,1,0,2 - 5-10%,2 - 100-499,1,News media,https://www.cp24.com/news/world/2026/09/16/uk-media-group-reach-to-cut-220-journalist-jobs/
+335,300,9,2,20260421,Day,Apr 2026,135,1350,0.1,0,0,3 - 10-25%,2 - 100-499,1,News media,https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/
+336,301,6,2,20260915,Day,Sep 2026,156,38711,0.004,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://www.commerce.nc.gov/data-tools-reports/labor-market-data-tools/workforce-warn-reports/report-workforce-warn-summary-list-2026
+337,301,6,2,20260922,Day,Sep 2026,205,38711,0.005,0,0,1 - <5%,2 - 100-499,2,News media,https://www.chron.com/news/article/truist-arlington-texas-layoffs-22443577.php
+338,302,9,2,20260901,Day,Sep 2026,284,12000,0.024,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+339,303,8,3,20260421,Day,Apr 2026,161,270,0.596,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.biospace.com/biospace-layoff-tracker
+340,304,2,5,20260423,Day,Apr 2026,2774,10000,0.27699999999999997,0,0,4 - 25-99%,4 - 1K-4.9K,1,News media,https://www.thestreet.com/employment/another-major-alcohol-distributor-rndc-signals-nearly-2800-job-cuts
+341,305,2,2,20260508,Day,May 2026,85,10000,0.009000000000000001,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://www.warntracker.com/company/reyes-coca-cola-bottling
+342,306,1,4,20260616,Day,Jun 2026,300,15232,0.02,0,0,1 - <5%,2 - 100-499,1,News media,https://www.cnbc.com/2026/06/16/rivian-layoffs.html
+343,307,3,2,20260616,Day,Jun 2026,290,2900,0.1,0,0,3 - 10-25%,2 - 100-499,1,News media,https://fortune.com/2026/06/16/robinhood-announces-layoffs-vladimir-tenev/
+344,308,2,2,20260817,Day,Aug 2026,115,2000,0.057999999999999996,0,0,2 - 5-10%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN
+345,309,9,4,20260902,Day,Sep 2026,176,4000,0.044000000000000004,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+346,310,1,2,20260817,Day,Aug 2026,73,51600,0.001,0,0,1 - <5%,1 - <100,1,News media,https://abc11.com/post/ryder-trucks-announces-73-layoffs-coming-fayetteville/19693737/
+347,311,9,2,20260101,Month,Jan 2026,170,5000,0.034,0,0,1 - <5%,2 - 100-499,1,News media,https://patch.com/new-jersey/across-nj/hundreds-nj-job-cuts-open-2026
+348,312,1,4,20260316,Day,Mar 2026,958,2566,0.373,0,0,4 - 25-99%,3 - 500-999,1,News media,https://www.ajc.com/business/2026/03/sk-battery-lays-off-nearly-1000-employees-at-north-georgia-plant/
+349,313,1,2,20260817,Day,Aug 2026,178,2400,0.07400000000000001,0,0,2 - 5-10%,2 - 100-499,1,News media,https://www.businessobserverfl.com/news/2026/aug/17/lakeland-logistics-company-job-cuts-plant-city/
+350,314,11,2,20260606,Day,Jun 2026,1866,17000,0.11,0,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://www.investing.com/news/stock-market-news/saks-global-wins-court-approval-for-bankruptcy-restructuring-4728991
+351,315,12,1,20260201,Month,Feb 2026,1000,72000,0.013999999999999999,1,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.cheapism.com/2026-layoffs-major-american-companies/
+352,315,12,1,20260609,Day,Jun 2026,86,80000,0.001,1,0,1 - <5%,1 - <100,2,News media,https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6
+353,315,12,2,20260805,Day,Aug 2026,74,80000,0.001,0,0,1 - <5%,1 - <100,3,Government / WARN filing,https://californiawarn.com/companies/salesforce
+354,316,2,2,20260720,Day,Jul 2026,839,10000,0.084,0,0,2 - 5-10%,3 - 500-999,1,News media,https://www.tomshardware.com/tech-industry/samsung-cuts-hundreds-of-us-consumer-electronics-jobs-ahead-of-texas-hq-move
+355,317,7,2,20260730,Day,Jul 2026,82,105,0.7809999999999999,0,0,4 - 25-99%,1 - <100,1,News media,https://sfstandard.com/2026/06/12/sf-court-pretrial-diversion-metrics-sheriff/
+356,318,8,5,20260817,Day,Aug 2026,229,82878,0.003,0,0,1 - <5%,2 - 100-499,1,News media,https://www.fiercepharma.com/pharma/sanofi-lay-229-blueprint-medicines-staff-close-cambridge-offices-following-acquisition
+357,319,12,1,20260529,Day,May 2026,240,3000,0.08,1,0,2 - 5-10%,2 - 100-499,1,News media,https://techstartups.com/2026/05/29/sentinelone-lays-off-8-of-workforce-as-ai-push-and-weak-guidance-send-shares-down-12/
+358,320,12,1,20260928,Day,Sep 2026,287,30000,0.01,1,0,1 - <5%,2 - 100-499,1,News media,https://finance.yahoo.com/technology/articles/servicenow-cuts-nearly-300-jobs-100000472.html
+359,321,8,2,20260812,Day,Aug 2026,260,22000,0.012,0,0,1 - <5%,2 - 100-499,1,News media,https://www.modernhealthcare.com/providers/staffing/mh-sharp-healthcare-layoffs-cuts/
+360,322,9,2,20260909,Day,Sep 2026,64,85000,0.001,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+361,323,9,4,20260812,Day,Aug 2026,120,17320,0.006999999999999999,0,0,1 - <5%,2 - 100-499,1,News media,https://www.packagingdive.com/news/packaging-layoffs-silgan-containers-smurfit-westrock/726001/
+362,324,12,1,20260603,Day,Jun 2026,100,500,0.2,1,0,3 - 10-25%,2 - 100-499,1,News media,https://www.calcalistech.com/ctechnews/article/jmjuqzfe6
+363,325,11,5,20260428,Day,Apr 2026,500,500,1.0,0,1,5 - Shutdown,3 - 500-999,1,News media,https://www.newsweek.com/smokey-bones-chain-closes-all-restaurants-nationwide-11897570
+364,326,10,1,20260415,Day,Apr 2026,1000,5261,0.19,1,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://deadline.com/2026/04/snap-layoffs-ceo-evan-spiegel-ai-1236861335/
+365,327,12,1,20260321,Day,Mar 2026,70,8000,0.009000000000000001,1,0,1 - <5%,1 - <100,1,News media,https://www.newsbytesapp.com/news/business/snowflake-cuts-jobs-after-200-million-openai-partnership/tldr
+366,328,12,1,20260624,Day,Jun 2026,90,1550,0.057999999999999996,1,0,2 - 5-10%,1 - <100,1,News media,https://en.globes.co.il/en/article-snyk-to-lay-off-90-employees-1001546903
+367,329,11,2,20260525,Day,May 2026,296,426464,0.001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.fiercehealthcare.com/finance/fierce-healthcare-layoff-tracker-2026-job-cuts-eliminations-health-systems-hospitals
+368,329,11,2,20260724,Day,Jul 2026,164,426464,0.0,0,0,1 - <5%,2 - 100-499,2,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN
+369,329,11,2,20260817,Day,Aug 2026,93,426464,0.0,0,0,1 - <5%,1 - <100,3,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN
+370,329,11,2,20260826,Day,Aug 2026,1000,426464,0.002,0,0,1 - <5%,4 - 1K-4.9K,4,News media,https://live.euronext.com/en/financial-news/sodexo-plans-cut-more-1000-jobs-france
+371,329,11,2,20260927,Day,Sep 2026,66,426464,0.0,0,0,1 - <5%,1 - <100,5,News media,https://www.wyso.org/news/2026-09-27/two-southwest-ohio-companies-announce-layoffs-of-more-than-200-workers
+372,330,12,2,20260625,Day,Jun 2026,55,1840,0.03,0,0,1 - <5%,1 - <100,1,News media,https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams
+373,331,10,2,20260407,Day,Apr 2026,200,12000,0.017,0,0,1 - <5%,2 - 100-499,1,News media,https://deadline.com/2026/04/sony-pictures-layoffs-refocus-on-growth-1236782963/
+374,332,10,1,20260610,Day,Jun 2026,200,6659,0.03,1,0,1 - <5%,2 - 100-499,1,News media,https://www.mediaweek.com.au/southern-cross-media-rohan-lund-ai-redundancies/
+375,333,1,4,20260502,Day,May 2026,14000,14000,1.0,0,1,5 - Shutdown,5 - 5K+,1,News media,https://www.cnn.com/2026/05/02/business/spirit-to-halt-all-flights
+376,334,12,1,20260715,Day,Jul 2026,260,1362,0.191,1,0,3 - 10-25%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/0001517375/000151737526000052/spt-20260715.htm
+377,335,6,1,20260519,Day,May 2026,7800,83000,0.094,1,0,2 - 5-10%,5 - 5K+,1,News media,https://www.business-standard.com/world-news/stanchart-planning-to-lay-off-thousands-of-support-staff-amid-ai-push-126051900112_1.html
+378,336,8,2,20260828,Day,Aug 2026,95,15278,0.006,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+379,337,9,4,20260226,Day,Feb 2026,300,60000,0.005,0,0,1 - <5%,2 - 100-499,1,News media,https://www.foxbusiness.com/markets/stanley-black-decker-cut-hundreds-jobs-shut-connecticut-plant
+380,338,11,2,20260805,Day,Aug 2026,109,12000,0.009000000000000001,0,0,1 - <5%,2 - 100-499,1,News media,https://finance.yahoo.com/economy/articles/fedex-others-announce-layoffs-southern-100000850.html
+381,339,10,2,20260603,Day,Jun 2026,65,495,0.131,0,0,3 - 10-25%,1 - <100,1,News media,https://racketmn.com/read-star-tribune-publisher-steve-groves-leaked-memo-announcing-dramatic-job-cuts-updated-vision
+382,340,2,2,20260511,Day,May 2026,61,16000,0.004,0,0,1 - <5%,1 - <100,1,News media,https://www.geekwire.com/2026/starbucks-to-cut-61-tech-jobs-at-seattle-hq-in-department-reorganization/
+383,340,2,2,20260515,Day,May 2026,300,16000,0.019,0,0,1 - <5%,2 - 100-499,2,News media,https://www.cnbc.com/2026/05/15/starbucks-to-lay-off-300-us-employees-close-some-regional-offices.html
+384,340,2,2,20260820,Day,Aug 2026,224,16000,0.013999999999999999,0,0,1 - <5%,2 - 100-499,3,News media,https://komonews.com/news/local/starbucks-files-another-layoff-notice-for-seattle-hq-200-jobs-affected-coffee-company-employment-economy-nashville-corporate-organization-restructuring-store-tourism-travel-employee
+385,341,6,1,20260708,Day,Jul 2026,130,4000,0.032,1,0,1 - <5%,2 - 100-499,1,News media,https://www.bankingdive.com/news/starling-to-whittle-headcount-by-3/824729/
+386,342,9,2,20260928,Day,Sep 2026,350,25000,0.013999999999999999,0,0,1 - <5%,2 - 100-499,1,News media,https://www.bnnbloomberg.ca/business/company-news/2026/09/29/stelco-to-lay-off-350-steelworkers-at-hamilton-plant-union-says/
+387,343,9,2,20260904,Day,Sep 2026,200,360,0.556,0,0,4 - 25-99%,2 - 100-499,1,News media,https://beavercountyradio.com/news/temporary-layoffs-occur-at-monaca-glass-plant-during-100-million-renovation/
+388,344,2,2,20260819,Day,Aug 2026,220,787,0.28,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.foxbusiness.com/lifestyle/stone-brewing-escondido-layoffs-production-shift
+389,345,10,4,20260506,Day,May 2026,71,1500,0.047,0,0,1 - <5%,1 - <100,1,Government / WARN filing,https://www.warntracker.com/company/streamland-media
+390,346,6,2,20261002,Day,Oct 2026,75,123000,0.001,0,0,1 - <5%,1 - <100,1,News media,https://www.yahoo.com/news/us/articles/global-banking-firm-trims-75-181044301.html
+391,347,13,2,20260921,Day,Sep 2026,450,2900,0.155,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.swissinfo.ch/eng/workplace/sunrise-is-reviewing-its-operating-model-and-considering-the-loss-of-up-to-450-jobs/92093311
+392,348,12,3,20260811,Day,Aug 2026,75,172,0.436,0,0,4 - 25-99%,1 - <100,1,News media,https://www.engadget.com/2234632/supermassive-games-will-lay-off-up-to-75-employees/
+393,349,12,2,20260305,Day,Mar 2026,60,700,0.086,0,0,2 - 5-10%,1 - <100,1,News media,https://www.trueup.io/layoffs
+394,350,6,3,20260901,Day,Sep 2026,600,12313,0.049,0,0,1 - <5%,3 - 500-999,1,News media,https://www.lifeinsuranceinternational.com/news/swiss-life-plans-600-job-cuts/
+395,351,12,5,20260831,Day,Aug 2026,128,28000,0.005,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/
+396,352,13,2,20260826,Day,Aug 2026,77,75000,0.001,0,0,1 - <5%,1 - <100,1,News media,https://komonews.com/news/local/t-mobile-closing-stores-in-washington-state-layoff-staff-at-headquarters-office-in-factoria-bellevue-remote-employee-employment-security-department-esd
+397,353,8,2,20260902,Day,Sep 2026,104,138,0.754,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.biospace.com/job-trends/tscan-cuts-75-of-workforce-while-shifting-focus-to-solid-tumor-program
+398,354,8,3,20260513,Day,May 2026,4500,49000,0.092,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://www.fiercepharma.com/pharma/takeda-slimming-down-new-era-plots-4500-layoffs-latest-restructuring-drive
+399,355,11,2,20260101,Month,Jan 2026,500,400000,0.001,0,0,1 - <5%,3 - 500-999,1,News media,https://finance.yahoo.com/news/layoffs-surge-2026-10-major-174540901.html
+400,356,13,2,,Year,2026 (no month),6000,100000,0.06,0,0,2 - 5-10%,5 - 5K+,1,News media,https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/
+401,357,8,2,20260308,Day,Mar 2026,90,250,0.36,0,0,4 - 25-99%,1 - <100,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+402,358,8,2,20260610,Day,Jun 2026,250,37000,0.006999999999999999,0,0,1 - <5%,2 - 100-499,1,News media,https://en.globes.co.il/en/article-teva-to-lay-off-250-in-api-division-in-israel-1001545492
+403,359,8,4,20260908,Day,Sep 2026,307,1600,0.192,0,0,3 - 10-25%,2 - 100-499,1,Government / WARN filing,https://www.twc.texas.gov/data-reports/warn-notice
+404,360,6,2,20260904,Day,Sep 2026,64,733,0.087,0,0,2 - 5-10%,1 - <100,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1295401/000203985226000121/ex99-1.htm
+405,361,11,2,20260128,Day,Jan 2026,1180,1180,1.0,0,1,5 - Shutdown,4 - 1K-4.9K,1,News media,https://finance.yahoo.com/news/original-factory-shop-collapses-administration-094200597.html
+406,362,12,2,20260903,Day,Sep 2026,575,3843,0.15,0,0,3 - 10-25%,3 - 500-999,1,News media,https://ppc.land/trade-desk-cuts-15-of-its-global-workforce-effective-today/
+407,363,8,2,20260303,Day,Mar 2026,200,400,0.5,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+408,364,8,2,20260202,Day,Feb 2026,80,125000,0.001,0,0,1 - <5%,1 - <100,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+409,365,12,2,20260923,Day,Sep 2026,96,297,0.32299999999999995,0,0,4 - 25-99%,1 - <100,1,News media,https://betakit.com/thinkific-lays-off-30-percent-of-employees-as-part-of-enterprise-push/
+410,366,12,1,20260713,Day,Jul 2026,500,27100,0.018000000000000002,1,0,1 - <5%,3 - 500-999,1,News media,https://thenextweb.com/news/thomson-reuters-engineering-layoffs-ai
+411,367,10,1,20260506,Day,May 2026,350,4375,0.08,1,0,2 - 5-10%,2 - 100-499,1,News media,https://world.infonasional.com/ticketmaster-layoffs-ai-restructuring-strategy
+412,368,10,1,20260701,Day,Jul 2026,300,40000,0.008,1,0,1 - <5%,2 - 100-499,1,News media,https://www.thejournal.ie/tiktok-layoffs-7086833-Jul2026/
+413,368,10,2,20260805,Day,Aug 2026,250,7000,0.036000000000000004,0,0,1 - <5%,2 - 100-499,2,News media,https://www.billboard.com/pro/tiktok-closes-nashville-office-lays-off-staff-music-city/
+414,368,10,2,20260819,Day,Aug 2026,75,7000,0.011000000000000001,0,0,1 - <5%,1 - <100,3,News media,https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/
+415,369,1,2,20260429,Day,Apr 2026,126,30000,0.004,0,0,1 - <5%,2 - 100-499,1,Government / WARN filing,https://www.warntracker.com/company/transdev
+416,370,8,2,20260904,Day,Sep 2026,557,133000,0.004,0,0,1 - <5%,3 - 500-999,1,News media,https://www.clickondetroit.com/news/local/2026/09/08/trinity-health-to-cut-over-500-jobs-in-livonia/
+417,371,3,2,20260917,Day,Sep 2026,200,800,0.25,0,0,4 - 25-99%,2 - 100-499,1,News media,https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/
+418,372,9,2,20260101,Month,Jan 2026,4900,139000,0.035,0,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.recruitingnewsnetwork.com/posts/major-companies-entering-2026-with-mass-layoffs-already-underway
+419,372,9,2,20260813,Day,Aug 2026,2500,133000,0.019,0,0,1 - <5%,4 - 1K-4.9K,2,News media,https://www.nbcchicago.com/news/local/tyson-foods-abruptly-closing-beef-plant-in-illinois-with-2500-workers-to-lose-their-jobs/3975332/
+420,372,9,2,20260813,Day,Aug 2026,723,133000,0.005,0,0,1 - <5%,3 - 500-999,3,News media,https://www.ksl.com/article/51609885/723-jobs-being-lost-as-tyson-foods-closes-eagle-mountain-facility
+421,373,8,2,20260803,Day,Aug 2026,102,1450,0.07,0,0,2 - 5-10%,2 - 100-499,1,News media,https://kstp.com/kstp-news/top-news/ucare-cuts-102-jobs-as-medicaid-contracts-shift-to-medica/
+422,374,12,1,20260415,Day,Apr 2026,950,12800,0.07400000000000001,1,0,2 - 5-10%,3 - 500-999,1,News media,https://finance.yahoo.com/markets/stocks/articles/ukg-formerly-ultimate-software-lays-205200750.html
+423,375,1,1,20260101,Month,Jan 2026,30000,500000,0.06,1,0,2 - 5-10%,5 - 5K+,1,News media,https://www.newsnationnow.com/business/major-employers-job-cuts-2026/
+424,376,4,2,20260901,Day,Sep 2026,65,23942,0.003,0,0,1 - <5%,1 - <100,1,News media,https://www.dailynews.com/2026/09/11/usc-cuts-65-workers-at-viterbi-school-of-engineering/
+425,377,1,1,20260603,Day,Jun 2026,340,34000,0.01,1,0,1 - <5%,2 - 100-499,1,News media,https://www.bloomberg.com/news/articles/2026-06-03/uber-cuts-23-of-people-division-as-new-president-takes-charge
+426,377,1,2,20260902,Day,Sep 2026,3300,34000,0.09699999999999999,0,0,2 - 5-10%,4 - 1K-4.9K,2,News media,https://finance.yahoo.com/markets/stocks/articles/uber-cutting-3-300-jobs-115712298.html
+427,378,12,2,20260610,Day,Jun 2026,380,19000,0.02,0,0,1 - <5%,2 - 100-499,1,News media,https://insider-gaming.com/ubisoft-380-employees/
+428,379,12,2,20260319,Day,Mar 2026,105,19000,0.006,0,0,1 - <5%,2 - 100-499,1,News media,https://www.gamedeveloper.com/business/ubisoft-lays-off-105-staff-at-red-storm-ends-game-development
+429,380,1,4,20260105,Day,Jan 2026,1334,1700,0.785,0,0,4 - 25-99%,4 - 1K-4.9K,1,News media,https://www.wfmj.com/story/53355222/ultium-cells-cuts-1300-jobs-at-lordstown-plant
+430,381,6,2,20260318,Day,Mar 2026,400,85000,0.005,0,0,1 - <5%,2 - 100-499,1,News media,https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/
+431,382,12,2,20260911,Day,Sep 2026,800,10824,0.07400000000000001,0,0,2 - 5-10%,3 - 500-999,1,News media,https://www.rttnews.com/3690270/united-internet-backs-fy26-outlook-units-1-1-ag-and-ionos-plan-restructuring-job-cuts.aspx
+432,383,4,3,20260603,Day,Jun 2026,84,14000,0.006,0,0,1 - <5%,1 - <100,1,News media,https://marylandmatters.org/2026/06/04/umd-lays-off-84-employees-amongst-period-of-uncertainty/
+433,384,8,3,20260915,Day,Sep 2026,199,15000,0.013000000000000001,0,0,1 - <5%,2 - 100-499,1,News media,https://vtdigger.org/2026/09/15/hundreds-of-layoffs-announced-at-the-two-largest-healthcare-networks/
+434,385,12,1,20260507,Day,May 2026,145,600,0.242,1,0,3 - 10-25%,2 - 100-499,1,Company filing,https://investors.upwork.com/news-releases/news-release-details/upwork-reports-first-quarter-2026-financial-results
+435,386,12,2,20260610,Day,Jun 2026,112,446,0.251,0,0,4 - 25-99%,2 - 100-499,1,Company filing (SEC),https://www.sec.gov/Archives/edgar/data/1615165/000162828026042199/veri-20260610.htm
+436,387,13,1,20260507,Day,May 2026,621,87000,0.006999999999999999,1,0,1 - <5%,3 - 500-999,1,News media,https://www.thestreet.com/employment/verizon-ceo-cuts-to-the-chase-new-layoffs-ai-future
+437,387,13,2,20260716,Day,Jul 2026,3000,89900,0.033,0,0,1 - <5%,4 - 1K-4.9K,2,News media,https://finance.yahoo.com/markets/stocks/articles/verizon-shed-274-stores-lay-160739807.html
+438,388,8,2,20260306,Day,Mar 2026,20,10000,0.002,0,0,1 - <5%,1 - <100,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+439,389,8,3,20260226,Day,Feb 2026,3200,37000,0.086,0,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://www.fiercebiotech.com/biotech/fierce-biotech-layoff-tracker-2026
+440,390,6,1,20260728,Day,Jul 2026,2600,37000,0.07,1,0,2 - 5-10%,4 - 1K-4.9K,1,News media,https://www.cnbc.com/2026/07/28/visa-is-cutting-7percent-of-employees-in-efficiency-push-as-ai-reshapes-work.html
+441,391,1,4,20260310,Day,Mar 2026,31000,680000,0.046,0,0,1 - <5%,5 - 5K+,1,News media,https://www.digitaljournal.com/world/volkswagen-says-to-cut-50000-jobs-as-profit-slides/article
+442,391,1,4,20260611,Day,Jun 2026,19000,680000,0.027999999999999997,0,0,1 - <5%,5 - 5K+,2,News media,https://www.timeslive.co.za/motoring/2026-06-11-volkswagen-to-reduce-workforce-by-19000-by-end-of-year/
+443,391,1,2,20260903,Day,Sep 2026,50000,662942,0.075,0,0,2 - 5-10%,5 - 5K+,3,News media,https://www.ttnews.com/articles/volkswagen-board-job-cuts
+444,392,9,2,20260601,Day,Jun 2026,450,3300,0.136,0,0,3 - 10-25%,2 - 100-499,1,News media,https://www.wowt.com/2026/06/01/kelloggs-details-omaha-plant-layoffs-planned-this-summer/
+445,392,9,2,20260608,Day,Jun 2026,117,3300,0.035,0,0,1 - <5%,2 - 100-499,2,News media,https://www.actionnews5.com/2026/06/08/memphis-kelloggs-factory-lay-off-100-workers/
+446,393,10,2,20260318,Day,Mar 2026,30,1000,0.03,0,0,1 - <5%,1 - <100,1,News media,https://deadline.com/2026/03/wme-layoffs-william-morris-endeavor-agency-1236758850/
+447,394,10,2,20260713,Day,Jul 2026,300,100000,0.003,0,0,1 - <5%,2 - 100-499,1,News media,https://www.bizcommunity.com/article/wpp-500m-savings-drive-sees-hundreds-of-employees-let-go-064235a
+448,394,10,2,20260901,Day,Sep 2026,1000,97388,0.01,0,0,1 - <5%,4 - 1K-4.9K,2,News media,https://mumbrella.com.au/wpp-ramps-up-job-cuts-with-up-to-1000-more-roles-axed-935476
+449,395,11,3,20260201,Month,Feb 2026,159,300000,0.001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.supplychaindive.com/news/walgreens-layoff-texas-distribution-center-159-employees/812882/
+450,396,11,1,20260512,Day,May 2026,1100,2100000,0.001,1,0,1 - <5%,4 - 1K-4.9K,1,News media,https://www.reuters.com/legal/litigation/walmart-lays-off-or-relocates-about-1000-corporate-workers-wsj-reports-2026-05-12/
+451,397,10,3,20260201,Month,Feb 2026,300,800,0.375,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.cheapism.com/2026-layoffs-major-american-companies/
+452,398,12,1,20260527,Day,May 2026,140,1740,0.08,1,0,2 - 5-10%,2 - 100-499,1,News media,https://webflow.com/blog/evolving-webflow-for-the-agentic-web
+453,399,6,1,20260203,Day,Feb 2026,112,230000,0.0,1,0,1 - <5%,2 - 100-499,1,News media,https://spectrumlocalnews.com/nc/charlotte/news/2026/02/06/raleigh-wells-fargo-layoffs-2026
+454,400,8,2,20260728,Day,Jul 2026,761,35000,0.022000000000000002,0,0,1 - <5%,3 - 500-999,1,News media,https://www.wsbtv.com/news/local/cobb-county/wellstar-lay-off-almost-800-staff-corporate-offices/CUH4APHFPNBZZLTNHTO7OZFGTY/
+455,401,11,2,20260810,Day,Aug 2026,80,5000,0.016,0,0,1 - <5%,1 - <100,1,News media,https://www.freightwaves.com/news/freight-distress-report-more-than-7000-jobs-cut-in-new-wave-of-closures
+456,402,9,3,20260307,Day,Mar 2026,341,58000,0.006,0,0,1 - <5%,2 - 100-499,1,News media,https://www.kcrg.com/2026/03/07/whirlpool-amana-layoffs-341-workers-lose-jobs-union-rallies-support/
+457,403,11,2,20260430,Day,Apr 2026,3800,34000,0.11199999999999999,0,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://www.rte.ie/news/business/2026/0430/1571072-premier-inn-owner-whitbread-to-cut-jobs/
+458,404,9,2,20260914,Day,Sep 2026,500,1700,0.294,0,0,4 - 25-99%,3 - 500-999,1,News media,https://www.abc.net.au/news/2026-09-14/hundreds-of-jobs-to-go-at-whyalla-steelworks/107149844
+459,405,1,1,20260225,Day,Feb 2026,2000,7000,0.28600000000000003,1,0,4 - 25-99%,4 - 1K-4.9K,1,News media,https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding
+460,406,12,1,20260525,Day,May 2026,1000,5277,0.19,1,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://en.globes.co.il/en/article-wix-plans-800-1000-layoffs-1001543841
+461,407,11,2,20260916,Day,Sep 2026,533,3700,0.14400000000000002,0,0,3 - 10-25%,3 - 500-999,1,News media,https://njbiz.com/wonder-layoffs-new-jersey-533-workers/
+462,408,12,2,20260929,Day,Sep 2026,500,21070,0.024,0,0,1 - <5%,3 - 500-999,1,News media,https://finance.yahoo.com/news/workday-doing-another-round-layoffs-212052410.html
+463,409,1,2,20261001,Day,Oct 2026,133,153153,0.001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.insideindianabusiness.com/articles/automotive-technology-company-to-close-lafayette-plant-cut-133-jobs
+464,410,11,5,20260108,Day,Jan 2026,2700,16582,0.163,0,0,3 - 10-25%,4 - 1K-4.9K,1,News media,https://corporate.zalando.com/en/convenience/zalando-reshapes-logistics-network-creating-more-value-customers-and-partners
+465,411,12,3,20260804,Day,Aug 2026,500,7068,0.071,0,0,2 - 5-10%,3 - 500-999,1,News media,https://www.housingwire.com/articles/zillow-layoffs-restructuring-500/
+466,412,2,2,20260831,Day,Aug 2026,250,22370,0.011000000000000001,0,0,1 - <5%,2 - 100-499,1,News media,https://www.businesstoday.in/technology/news/story/zomato-to-layoff-250-employees-shut-hyderabad-customer-support-centre-552227-2026-08-31
+467,413,12,2,20260511,Day,May 2026,600,3000,0.2,0,0,3 - 10-25%,3 - 500-999,1,News media,https://www.stocktitan.net/sec-filings/GTM/8-k-zoom-info-technologies-inc-reports-material-event-1c8ee7c46b0c.html
+468,414,12,2,20260903,Day,Sep 2026,261,8700,0.03,0,0,1 - <5%,2 - 100-499,1,News media,https://www.govinfosecurity.com/zscaler-to-lay-off-3-staff-as-shifts-spend-to-sales-a-32746
+469,415,1,2,20261005,Day,Oct 2026,700,3000,0.233,0,0,3 - 10-25%,3 - 500-999,1,News media,https://www.aerotime.aero/articles/airbaltic-staff-hundreds-job-cuts-riga-vilnius-tallinn
+470,416,10,3,20260908,Day,Sep 2026,340,10000,0.034,0,0,1 - <5%,2 - 100-499,1,News media,https://www.racingpost.com/news/industry/betting-industry/bet365-to-cut-340-jobs-in-latest-blow-from-higher-gambling-taxes-aDMCy8c3OFEs/
+471,417,12,2,20260226,Day,Feb 2026,800,12300,0.065,0,0,2 - 5-10%,3 - 500-999,1,News media,https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html
+472,418,10,2,20260625,Day,Jun 2026,100,10000,0.01,0,0,1 - <5%,2 - 100-499,1,News media,https://barrettmedia.com/2026/06/25/iheartmedia-enacting-round-of-layoffs/
+473,419,12,2,20260707,Day,Jul 2026,136,270,0.504,0,0,4 - 25-99%,2 - 100-499,1,News media,https://www.gamedeveloper.com/business/report-around-half-of-the-id-software-team-have-been-laid-off
+474,420,12,1,20260722,Day,Jul 2026,620,3100,0.2,1,0,3 - 10-25%,3 - 500-999,1,News media,https://en.globes.co.il/en/article-mondaycom-to-lay-off-620-as-it-adapts-to-ai-1001550113
+475,421,12,2,20260201,Month,Feb 2026,50,500,0.1,0,0,3 - 10-25%,1 - <100,1,News media,https://futurism.com/artificial-intelligence/elon-musk-orders-layoffs-xai-coding

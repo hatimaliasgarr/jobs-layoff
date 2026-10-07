@@ -1,0 +1,203 @@
+table _Measures
+	lineageTag: e98ba1f3-0664-58e8-853f-12cf4671e5a4
+
+	measure 'Jobs Cut' = SUM ( fact_layoff_events[people_cut] )
+		formatString: #,0
+		displayFolder: Core
+		lineageTag: ec4ca149-9f9d-56d1-a729-b137ce3ce7a1
+
+	measure 'Layoff Events' = COUNTROWS ( fact_layoff_events )
+		formatString: #,0
+		displayFolder: Core
+		lineageTag: 39d06bf8-318f-52e8-b0ab-c8be7729ca4f
+
+	measure Companies = DISTINCTCOUNT ( fact_layoff_events[company_id] )
+		formatString: #,0
+		displayFolder: Core
+		lineageTag: 92b9ea9f-e2f5-592a-9cea-f796ff3db970
+
+	measure 'Avg Jobs per Event' = DIVIDE ( [Jobs Cut], [Layoff Events] )
+		formatString: #,0
+		displayFolder: Core
+		lineageTag: 3b746a1f-520e-57f6-9d6a-1a7d834c02a2
+
+	measure 'Median Jobs per Event' = MEDIAN ( fact_layoff_events[people_cut] )
+		formatString: #,0
+		displayFolder: Core
+		lineageTag: 23b2718e-4615-56be-a88b-ef02e73ca807
+
+	measure 'Avg Workforce % Cut' = AVERAGE ( fact_layoff_events[workforce_pct] )
+		formatString: 0.0%
+		displayFolder: Core
+		lineageTag: 77e77d9b-a165-512a-889e-581b828f1ff5
+
+	measure Shutdowns = CALCULATE ( [Layoff Events], fact_layoff_events[is_shutdown] = 1 )
+		formatString: #,0
+		displayFolder: Core
+		lineageTag: 9a052f5d-6ecd-5bbf-996c-27a1067db2f6
+
+	measure 'AI Jobs Cut' = CALCULATE ( [Jobs Cut], fact_layoff_events[is_ai_driven] = 1 )
+		formatString: #,0
+		displayFolder: AI
+		lineageTag: 0f11524a-a22c-5c13-9a10-aeabf2ccc179
+
+	measure 'AI Events' = CALCULATE ( [Layoff Events], fact_layoff_events[is_ai_driven] = 1 )
+		formatString: #,0
+		displayFolder: AI
+		lineageTag: 59d8ac67-003e-5ccf-93ed-7ee982978856
+
+	measure 'AI Share of Jobs' = DIVIDE ( [AI Jobs Cut], [Jobs Cut] )
+		formatString: 0.0%
+		displayFolder: AI
+		lineageTag: b434cbe4-ccad-5cb1-aced-a2bdfdd62d3f
+
+	measure 'AI Share of Events' = DIVIDE ( [AI Events], [Layoff Events] )
+		formatString: 0.0%
+		displayFolder: AI
+		lineageTag: 30fe895d-7414-58dc-ae05-86098f615949
+
+	measure 'Non-AI Jobs Cut' = [Jobs Cut] - [AI Jobs Cut]
+		formatString: #,0
+		displayFolder: AI
+		lineageTag: 51721b8e-761e-5377-99b7-3914e3367594
+
+	measure 'Avg Jobs per AI Event' = DIVIDE ( [AI Jobs Cut], [AI Events] )
+		formatString: #,0
+		displayFolder: AI
+		lineageTag: 61a1218f-674e-52a5-a109-973f71c54992
+
+	measure 'Avg Jobs per Non-AI Event' = DIVIDE ( [Non-AI Jobs Cut], [Layoff Events] - [AI Events] )
+		formatString: #,0
+		displayFolder: AI
+		lineageTag: 101b65ae-aabf-52fd-94c9-8081842dc4ee
+
+	measure 'AI Size Multiplier' = DIVIDE ( [Avg Jobs per AI Event], [Avg Jobs per Non-AI Event] )
+		formatString: 0.0"x"
+		displayFolder: AI
+		lineageTag: 4d04a2d7-0a9e-52e3-8603-d277ba3608ab
+
+	measure 'AI Share H1' = CALCULATE ( [AI Share of Jobs], DATESBETWEEN ( dim_date[date], DATE ( 2026, 1, 1 ), DATE ( 2026, 6, 30 ) ) )
+		formatString: 0%
+		displayFolder: AI
+		lineageTag: 533c658c-4e51-5228-a5df-12b5cfd7c1da
+
+	measure 'AI Share Q3' = CALCULATE ( [AI Share of Jobs], DATESBETWEEN ( dim_date[date], DATE ( 2026, 7, 1 ), DATE ( 2026, 9, 30 ) ) )
+		formatString: 0%
+		displayFolder: AI
+		lineageTag: 44dcdff8-9681-5520-91fc-ac54fd661150
+
+	measure 'Jobs Cut Running Total' =
+			VAR _maxDate = MAX ( dim_date[date] )
+			RETURN
+			    IF (
+			        NOT ISBLANK ( [Jobs Cut] ),
+			        CALCULATE ( [Jobs Cut], dim_date[date] <= _maxDate, ALL ( dim_date ),
+			            NOT ISBLANK ( fact_layoff_events[date_key] ) )
+			    )
+		formatString: #,0
+		displayFolder: Time
+		lineageTag: 77ea98be-f5b2-5db5-b685-4c050cee8ba8
+
+	measure 'Jobs Cut Prev Month' = CALCULATE ( [Jobs Cut], DATEADD ( dim_date[date], -1, MONTH ) )
+		formatString: #,0
+		displayFolder: Time
+		lineageTag: 5e739fa3-4eb5-5afb-8c89-a21af758e9e4
+
+	measure 'Jobs Cut MoM %' = IF ( NOT ISBLANK ( [Jobs Cut] ), DIVIDE ( [Jobs Cut] - [Jobs Cut Prev Month], [Jobs Cut Prev Month] ) )
+		formatString: +0%;-0%;0%
+		displayFolder: Time
+		lineageTag: c975dcf5-a589-53c6-9e0c-311ad75a92e1
+
+	measure 'Undated Jobs Cut' = CALCULATE ( [Jobs Cut], ISBLANK ( fact_layoff_events[date_key] ) )
+		formatString: #,0
+		displayFolder: Time
+		lineageTag: 1eea08af-9d2f-5581-9ab1-5931828b6cb5
+
+	measure 'Share of Total Jobs' = DIVIDE ( [Jobs Cut], CALCULATE ( [Jobs Cut], ALLSELECTED () ) )
+		formatString: 0.0%
+		displayFolder: Ranking
+		lineageTag: 7174d5fe-f8e8-5bd4-be31-3b59e0fcd249
+
+	measure 'Industry Rank' = RANKX ( ALLSELECTED ( dim_industry[industry] ), [Jobs Cut], , DESC, DENSE )
+		formatString: 0
+		displayFolder: Ranking
+		lineageTag: ed29b397-db86-5f2c-93c6-d78ae899afd8
+
+	measure 'Company Rank' = RANKX ( ALLSELECTED ( dim_company[company] ), [Jobs Cut], , DESC, DENSE )
+		formatString: 0
+		displayFolder: Ranking
+		lineageTag: 7338fff1-3d9e-5d62-9fcf-49f26d9ea78c
+
+	measure 'Repeat Layoffers' = CALCULATE ( [Companies], dim_company[is_repeat_layoffer] = 1 )
+		formatString: #,0
+		displayFolder: Ranking
+		lineageTag: a5fd1a98-407a-5305-ad00-fc362593dfbc
+
+	measure 'US Avg Monthly Layoffs 2026' = CALCULATE ( AVERAGE ( macro_monthly[us_layoffs_discharges_k] ) * 1000, macro_monthly[year] = 2026 )
+		formatString: #,0
+		displayFolder: Macro
+		lineageTag: b8e14d60-be19-504f-af10-756dbf8c3c4d
+
+	measure 'US Monthly Layoffs' = AVERAGE ( macro_monthly[us_layoffs_discharges_k] ) * 1000
+		formatString: #,0
+		displayFolder: Macro
+		lineageTag: 75cf738d-5101-57d5-85c5-c717e92195c8
+
+	measure 'AI Jobs vs One US Month' = DIVIDE ( CALCULATE ( [AI Jobs Cut], REMOVEFILTERS () ), [US Avg Monthly Layoffs 2026] )
+		formatString: 0%
+		displayFolder: Macro
+		lineageTag: ae4fe62d-18d7-5916-a30e-ccc834d3eabf
+
+	measure 'Bar Colour AI' =
+			IF (
+			    SELECTEDVALUE ( dim_category[category_label] ) = "AI-Driven",
+			    "#EB6834",
+			    "#C9C8C2"
+			)
+		displayFolder: Formatting
+		lineageTag: 88e210b3-5753-5933-8514-d871e2cda69a
+
+	measure 'Bar Colour Industry AI Share' = IF ( [AI Share of Jobs] >= 0.5, "#EB6834", "#C9C8C2" )
+		displayFolder: Formatting
+		lineageTag: 7cc36ec6-6fd3-5851-90e8-27e703cc6e9a
+
+	measure 'Title Overview' =
+			VAR _scope =
+			    IF (
+			        ISFILTERED ( dim_industry[industry] ),
+			        CONCATENATEX ( VALUES ( dim_industry[industry] ), dim_industry[industry], ", " ),
+			        "all industries"
+			    )
+			RETURN
+			    "AI was blamed for " & FORMAT ( [AI Share of Jobs], "0%" ) & " of 2026 job cuts  |  " & _scope
+		displayFolder: Formatting
+		lineageTag: 66dace25-acb0-5a2a-9ce8-e6d2cc6797fd
+
+	measure 'Subtitle Overview' =
+			"AI was named in " & FORMAT ( [AI Share of Events], "0%" ) & " of layoff events, but AI-driven layoffs were "
+			    & FORMAT ( [AI Size Multiplier], "0.0" ) & "x bigger on average (" & FORMAT ( [Avg Jobs per AI Event], "#,0" )
+			    & " vs " & FORMAT ( [Avg Jobs per Non-AI Event], "#,0" ) & " jobs)."
+		displayFolder: Formatting
+		lineageTag: 2cf5b1c0-c815-5cb2-bf30-6956328e431d
+
+	measure 'Data As Of' = "Data as of 6 Oct 2026  |  layoffhedge.com 2026 Layoff Dataset, BLS JOLTS via FRED"
+		displayFolder: Formatting
+		lineageTag: 4ab139e5-86ca-5ed7-b18a-36c9c6f89d88
+
+	column Value
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 8c29e3d8-9255-52cf-9c85-0f09c104d750
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = calculated
+		mode: import
+		source = ROW ( "Value", 0 )
+
+	annotation PBI_Id = fbe404b5c5da5b73bfaa470233cbff85
+

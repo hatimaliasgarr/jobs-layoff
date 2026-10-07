@@ -1,0 +1,14 @@
+industry_id,industry,sector_group
+1,Automotive & Transportation,Non-Tech
+2,Consumer Goods,Non-Tech
+3,Crypto & Fintech,Tech & Digital
+4,Education,Non-Tech
+5,Energy,Non-Tech
+6,Finance & Banking,Non-Tech
+7,Government & Nonprofit,Non-Tech
+8,Healthcare & Pharma,Non-Tech
+9,Manufacturing,Non-Tech
+10,Media & Entertainment,Non-Tech
+11,Retail,Non-Tech
+12,Tech,Tech & Digital
+13,Telecom,Tech & Digital

@@ -1,0 +1,16 @@
+rnk,company,industry,category_label,period_label,people_cut,workforce_pct
+1,Volkswagen Group,Automotive & Transportation,Restructure,Sep 2026,50000,7.5
+2,Volkswagen Group,Automotive & Transportation,Weak Demand,Mar 2026,31000,4.6
+3,Oracle,Tech,AI-Driven,Mar 2026,30000,18.5
+3,UPS,Automotive & Transportation,AI-Driven,Jan 2026,30000,6.0
+5,Citigroup,Finance & Banking,AI-Driven,2025-26 program,20000,10.0
+5,HSBC,Finance & Banking,AI-Driven,Mar 2026,20000,9.5
+7,Volkswagen Group,Automotive & Transportation,Weak Demand,Jun 2026,19000,2.8
+8,Amazon,Tech,AI-Driven,Jan 2026,16000,4.6
+8,Meta,Tech,AI-Driven,Mar 2026,16000,20.3
+8,Nestlé,Consumer Goods,AI-Driven,Feb 2026,16000,5.9
+11,Cognizant,Tech,AI-Driven,Apr 2026,15000,4.2
+11,Intel,Tech,Restructure,Jan 2026,15000,13.6
+11,Omnicom,Media & Entertainment,Merger,Sep 2026,15000,12.5
+14,Nokia,Telecom,Restructure,Mar 2026,14000,18.9
+14,Spirit Airlines,Automotive & Transportation,Weak Demand,May 2026,14000,100.0

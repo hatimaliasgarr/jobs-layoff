@@ -1,0 +1,50 @@
+{
+  "name": "AI Layoffs 2026",
+  "dataColors": ["#EB6834", "#C9C8C2", "#2A78D6", "#1BAF7A", "#EDA100", "#E87BA4", "#4A3AA7", "#E34948"],
+  "background": "#FCFCFB",
+  "foreground": "#0B0B0B",
+  "tableAccent": "#EB6834",
+  "good": "#0CA30C",
+  "neutral": "#C9C8C2",
+  "bad": "#D03B3B",
+  "maximum": "#EB6834",
+  "center": "#F6C2AA",
+  "minimum": "#FCEDE6",
+  "textClasses": {
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#0B0B0B" },
+    "header":  { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#0B0B0B" },
+    "label":   { "fontFace": "Segoe UI", "fontSize": 10, "color": "#52514E" },
+    "callout": { "fontFace": "Segoe UI Bold", "fontSize": 28, "color": "#0B0B0B" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background":   [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border":       [{ "show": true, "color": { "solid": { "color": "#E6E5E0" } }, "radius": 8 }],
+        "dropShadow":   [{ "show": false }],
+        "visualHeader": [{ "show": true }],
+        "padding":      [{ "top": 12, "bottom": 12, "left": 14, "right": 14 }],
+        "title":        [{ "show": true, "fontColor": { "solid": { "color": "#0B0B0B" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F3EF" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels":         [{ "color": { "solid": { "color": "#0B0B0B" } }, "fontSize": 26 }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#52514E" } }, "fontSize": 10 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [{ "fontColor": { "solid": { "color": "#52514E" } }, "textSize": 10 }],
+        "items":  [{ "fontColor": { "solid": { "color": "#0B0B0B" } }, "textSize": 10 }]
+      }
+    },
+    "valueAxis":    { "*": { "gridlineColor": [{ "solid": { "color": "#E6E5E0" } }] } },
+    "categoryAxis": { "*": { "gridlineShow": [{ "value": false }] } }
+  }
+}

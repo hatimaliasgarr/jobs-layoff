@@ -1,0 +1,16 @@
+check,rows_affected,action_taken
+Comment/metadata lines above header,3,Skipped on read
+Exact duplicate rows,0,Dropped
+Same company + same date (different sites/sources),2,"Kept - separate events (e.g. Tyson Foods: two plants, two sources)"
+Date given at 'Month' level instead of a day,24,Set to 1st of month; precision flag = 'Month'
+Date given at 'Year' level instead of a day,3,"Date left blank; excluded from monthly trend, kept in totals"
+Date given at 'Multi-year plan' level instead of a day,3,Date left blank; flagged as multi-year program (e.g. Bosch 2025-30)
+Event date after dataset 'as of' date,0,None found
+Workforce % stored as text ('7.4%'),475,Converted to decimal fraction (0.074)
+Workforce % != people_cut / total_workforce (>1pp),0,None found - source % is consistent
+100% of workforce cut (business closure),9,Kept; flagged is_shutdown = 1 so it can be filtered
+Non-positive headcount values,0,None found
+Companies with more than one layoff event,39,Kept all events; added company_event_no / is_repeat_layoffer
+Industry totals vs publisher's industries-2026.csv,0,All 13 industries reconcile exactly
+Monthly totals vs publisher's monthly-2026.csv,0,All months reconcile exactly
+Rows in -> rows out,475,"475 clean events, 421 companies"

@@ -1,0 +1,131 @@
+// =====================================================================
+// AI Layoffs 2026 - DAX measures
+// Create an empty table to hold them:  Home > Enter data > name it "_Measures" > Load.
+// Then for each block below: Modeling > New measure > paste.
+// Set the format shown in [brackets] in the Measure tools ribbon.
+// Expected values (no filters) are listed so you can check your model.
+// =====================================================================
+
+// ---------------- Core ----------------------------------------------
+
+Jobs Cut = SUM ( fact_layoff_events[people_cut] )                         // [#,0]   672,731
+
+Layoff Events = COUNTROWS ( fact_layoff_events )                          // [#,0]   475
+
+Companies = DISTINCTCOUNT ( fact_layoff_events[company_id] )              // [#,0]   421
+
+Avg Jobs per Event = DIVIDE ( [Jobs Cut], [Layoff Events] )               // [#,0]   1,416
+
+Median Jobs per Event = MEDIAN ( fact_layoff_events[people_cut] )         // [#,0]
+
+Avg Workforce % Cut = AVERAGE ( fact_layoff_events[workforce_pct] )       // [0.0%]
+
+Shutdowns =
+CALCULATE ( [Layoff Events], fact_layoff_events[is_shutdown] = 1 )        // [#,0]   9
+
+// ---------------- The AI story --------------------------------------
+
+AI Jobs Cut =
+CALCULATE ( [Jobs Cut], fact_layoff_events[is_ai_driven] = 1 )            // [#,0]   258,829
+
+AI Events =
+CALCULATE ( [Layoff Events], fact_layoff_events[is_ai_driven] = 1 )       // [#,0]   85
+
+AI Share of Jobs = DIVIDE ( [AI Jobs Cut], [Jobs Cut] )                    // [0.0%]  38.5%
+
+AI Share of Events = DIVIDE ( [AI Events], [Layoff Events] )               // [0.0%]  17.9%
+
+Non-AI Jobs Cut = [Jobs Cut] - [AI Jobs Cut]                               // [#,0]
+
+Avg Jobs per AI Event = DIVIDE ( [AI Jobs Cut], [AI Events] )              // [#,0]   3,045
+
+Avg Jobs per Non-AI Event =
+DIVIDE ( [Non-AI Jobs Cut], [Layoff Events] - [AI Events] )               // [#,0]   1,061
+
+AI Size Multiplier =
+DIVIDE ( [Avg Jobs per AI Event], [Avg Jobs per Non-AI Event] )            // [0.0"x"] 2.9x
+
+AI Share H1 =
+CALCULATE ( [AI Share of Jobs],
+    DATESBETWEEN ( dim_date[date], DATE ( 2026, 1, 1 ), DATE ( 2026, 6, 30 ) ) )   // [0%] 49%
+
+AI Share Q3 =
+CALCULATE ( [AI Share of Jobs],
+    DATESBETWEEN ( dim_date[date], DATE ( 2026, 7, 1 ), DATE ( 2026, 9, 30 ) ) )   // [0%] 6%
+
+// ---------------- Time intelligence (mark dim_date as a date table first) ---
+
+Jobs Cut Running Total =
+VAR _maxDate = MAX ( dim_date[date] )
+RETURN
+    IF (
+        NOT ISBLANK ( [Jobs Cut] ),
+        CALCULATE ( [Jobs Cut], dim_date[date] <= _maxDate, ALL ( dim_date ),
+            NOT ISBLANK ( fact_layoff_events[date_key] ) )   // undated events excluded
+    )
+
+Jobs Cut Prev Month =
+CALCULATE ( [Jobs Cut], DATEADD ( dim_date[date], -1, MONTH ) )
+
+Jobs Cut MoM % =
+IF ( NOT ISBLANK ( [Jobs Cut] ), DIVIDE ( [Jobs Cut] - [Jobs Cut Prev Month], [Jobs Cut Prev Month] ) )      // [+0%;-0%;0%]
+
+Undated Jobs Cut =
+CALCULATE ( [Jobs Cut], ISBLANK ( fact_layoff_events[date_key] ) )        // [#,0]   64,820
+
+// ---------------- Ranking & share-of-total ----------------------------
+
+Share of Total Jobs =
+DIVIDE ( [Jobs Cut], CALCULATE ( [Jobs Cut], ALLSELECTED () ) )           // [0.0%]
+
+Industry Rank =
+RANKX ( ALLSELECTED ( dim_industry[industry] ), [Jobs Cut], , DESC, DENSE )
+
+Company Rank =
+RANKX ( ALLSELECTED ( dim_company[company] ), [Jobs Cut], , DESC, DENSE )
+
+Repeat Layoffers =
+CALCULATE ( [Companies], dim_company[is_repeat_layoffer] = 1 )            // [#,0]   39
+
+// ---------------- Reality check (BLS JOLTS, disconnected table) -------
+
+US Avg Monthly Layoffs 2026 =
+CALCULATE (
+    AVERAGE ( macro_monthly[us_layoffs_discharges_k] ) * 1000,
+    macro_monthly[year] = 2026
+)                                                                          // [#,0]   ~1,727,000
+
+US Monthly Layoffs = AVERAGE ( macro_monthly[us_layoffs_discharges_k] ) * 1000   // for the line chart
+
+AI Jobs vs One US Month =
+DIVIDE ( CALCULATE ( [AI Jobs Cut], REMOVEFILTERS () ), [US Avg Monthly Layoffs 2026] )   // [0%] 15%
+
+// ---------------- Formatting helpers ----------------------------------
+
+// Conditional-format colour for bars: Format > Bars > Colors > fx > Field value > this measure
+Bar Colour AI =
+IF (
+    SELECTEDVALUE ( dim_category[category_label] ) = "AI-Driven"
+        || SELECTEDVALUE ( fact_layoff_events[is_ai_driven] ) = 1,
+    "#EB6834",
+    "#C9C8C2"
+)
+
+// Colour for an industry bar by how much it blames AI
+Bar Colour Industry AI Share =
+IF ( [AI Share of Jobs] >= 0.5, "#EB6834", "#C9C8C2" )
+
+// Dynamic page title: reacts to every slicer
+Title Overview =
+VAR _scope =
+    IF ( ISFILTERED ( dim_industry[industry] ),
+         CONCATENATEX ( VALUES ( dim_industry[industry] ), dim_industry[industry], ", " ),
+         "All industries" )
+RETURN
+    "AI was blamed for " & FORMAT ( [AI Share of Jobs], "0%" ) & " of 2026 job cuts  |  " & _scope
+
+Subtitle Overview =
+"AI was named in " & FORMAT ( [AI Share of Events], "0%" ) & " of layoff events, but AI-driven layoffs were "
+    & FORMAT ( [AI Size Multiplier], "0.0" ) & "x bigger on average."
+
+Data As Of = "Data as of 6 Oct 2026  |  layoffhedge.com, BLS JOLTS (FRED)"
